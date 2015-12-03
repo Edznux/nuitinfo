@@ -2,6 +2,9 @@
 
 
 @section('content')
+@if(Session::has('success'))
+<h3>{{{$success}}}</h3>
+@else
 <div id ="pagetitle"><header>Actualités</header></div>
 
 <div id="message" >
@@ -16,6 +19,6 @@ fjs.parentNode.insertBefore(js,fjs);
 </script>
 </div>
 <div id="maps"></div>
-
+@endif
 
 @stop

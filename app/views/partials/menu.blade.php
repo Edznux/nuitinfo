@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="{{{ URL::to( '/') }}}">Accueil</a>
+      <a class="navbar-brand" href="{{{ URL::to( '/') }}}">Actus</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -16,7 +16,7 @@
       <ul class="nav navbar-nav">
         <li><a class="menu" href="{{{ URL::to( '/map') }}}">Map</a></li>
 		    <li><a class="menu" href="{{{ URL::to( '/rules') }}}">Règles</a></li>
-        <li><a class="menu" href="{{{ URL::to( '/actu') }}}">Actus</a></li>
+       <!-- <li><a class="menu" href="{{{ URL::to( '/actu') }}}">Actus</a></li>-->
 		    <li><a class="menu" href="{{{ URL::to( '/messages') }}}">Messages</a>
       </ul>
     </div><!-- /.navbar-collapse -->
