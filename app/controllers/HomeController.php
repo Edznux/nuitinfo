@@ -25,7 +25,7 @@ class HomeController extends BaseController {
 	public function showMessages()
 	{
 		$villes = Position::all();
-
+		$listvilles = array();
 		foreach ($villes as $ville) {
 			$listvilles[] = $ville->label;
 		}
