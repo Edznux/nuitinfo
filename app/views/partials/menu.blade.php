@@ -17,7 +17,7 @@
 
         <li ><a href="{{{ URL::to( '/map') }}}" class="list-group-item {{{ (Request::is('/map') ? 'active' : '') }}}">Map<!--<span class="sr-only">(current)</span>--></a></li>
 		<li><a href="{{{ URL::to( '/rules') }}}" class="list-group-item {{{ (Request::is('/rules') ? 'active' : '') }}}">Règles</a></li>
-        <li ><a href="{{{ URL::to( '/actu') }}}" class="list-group-item {{{ (Request::is('/actu') ? 'active' : '') }}}">Actus</a></li>
+        <li class="{{HTML::isActive('/actu')}}"><a href="{{{ URL::to( '/actu') }}}">Actus</a></li>
 		<li><a href="{{{ URL::to( '/messages') }}}" class="list-group-item {{{ (Request::is('/messages') ? 'active' : '') }}}">Messages</a>
 
         <!--<li class="dropdown">
