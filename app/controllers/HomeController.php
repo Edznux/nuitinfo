@@ -40,7 +40,7 @@ class HomeController extends BaseController {
 		$validator = Validator::make(Input::all(), $rules);
 
 		if ($validator->fails()) {
-			return Redirect::to('/message')
+			return Redirect::to('/messages')
             ->withErrors($validator)
             ->withInput(Input::except('password'));
 		}
