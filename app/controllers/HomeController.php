@@ -25,9 +25,6 @@ class HomeController extends BaseController {
 	public function showMessages()
 	{
 		$villes = Position::all();
-		/*foreach ($villes as $ville) {
-			$listvilles[] = $ville->label;
-		}*/
 
 		return View::make('messages')
 				->with('villes',$villes);
@@ -40,7 +37,9 @@ class HomeController extends BaseController {
 
 	public function showMap()
 	{
-		return View::make('map');
+		$position = Position::all();
+		return View::make('map')
+			->with('position',$position);
 	}
 
 	public function showRules()
