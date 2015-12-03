@@ -13,7 +13,7 @@ function initMap() {
 
 	var marker;
 	for(p in position){
-		console.log(p):
+		console.log(p);
 		marker = new google.maps.Marker({
 			map: map,
 			position: {lat: parseInt(position[p].lat), lng: parseInt(position[p].lng)},
