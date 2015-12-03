@@ -3,7 +3,7 @@
 
 @section('content')
 @if(Session::has('success'))
-<h3>{{{$message}}}</h3>
+<h3>{{{$success}}}</h3>
 @else
 <div id ="pagetitle"><header>Actualités</header></div>
 
