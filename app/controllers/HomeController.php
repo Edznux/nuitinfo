@@ -25,13 +25,12 @@ class HomeController extends BaseController {
 	public function showMessages()
 	{
 		$villes = Position::all();
-		foreach ($villes as $ville) {
-			//$listvilles[] = $ville->label;
-			dd($ville->label);
-		}
+		/*foreach ($villes as $ville) {
+			$listvilles[] = $ville->label;
+		}*/
 
 		return View::make('messages')
-				/*->with('villes',$listvilles)*/;
+				->with('villes',$villes);
 	}
 
 	public function showActu()

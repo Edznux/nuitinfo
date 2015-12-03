@@ -10,10 +10,9 @@
 	<form id="messages" method="post" action="">
 		Localisation :
 		<select>
-			<option value="Pau">Pau</option>
-		  	<option value="Paris">Paris</option>
-		  	<option value="Bayonne">Bayonne</option>
-		  	<option value="Bordeaux">Bordeaux</option>
+			@foreach ($villes as $ville)
+			    <option value="{{{ $ville->label }}}">{{{ $ville->label }}}</p>
+			@endforeach
 		</select>
 		</br>
 		<button type="button">Ajouter une ville</button>
