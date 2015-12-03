@@ -39,7 +39,7 @@ class HomeController extends BaseController {
 	{
 		$position = Position::all();
 		return View::make('map')
-			->with('position',$position);
+			->with('position',$position->toJson());
 	}
 
 	public function showRules()
