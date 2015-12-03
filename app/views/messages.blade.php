@@ -21,4 +21,8 @@
 		</br></br>
 		<input type="Submit" name="envoie" value="Envoyer">
 	</form>
+
+	@if (!empty($_POST))
+		<h3>Message envoyé, merci de votre aide.</h3>
+	@endif
 @stop
