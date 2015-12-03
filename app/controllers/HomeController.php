@@ -45,15 +45,9 @@ class HomeController extends BaseController {
             ->withInput(Input::except('password'));
 		}
 		else{
-			$messageD = array(
-	            'message'  => Input::get('message'),
-	            'ville'  => Input::get('ville')
-	        );
-
-			$msg = new Message;
-			$msg->message = $messageD['message'];
-			$msg->ville = $messageD['ville'];
-			$msg->save();
+			DB::table('message')->insert(
+   				array('message' => Input::get('message'), 'ville' => Input::get('ville'))
+			);
 		}	
 	}
 
