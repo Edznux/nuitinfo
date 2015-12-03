@@ -6,7 +6,7 @@
 
 <div id="message" >
 
-	<a class="twitter-timeline" href="https://twitter.com/hashtag/nuitinfo2015" data-widget-id="672511905999798272"  height="100%" width="100%" />
+	<a class="twitter-timeline" href="hashtag/nuitinfo2015" data-widget-id="672511905999798272"  height="100%" width="100%"></a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
 if(!d.getElementById(id)){js=d.createElement(s);
 js.id=id;
