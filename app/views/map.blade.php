@@ -5,6 +5,6 @@
 	<script>
 	var position = {{ $position }}
 	</script>
-	<div id="map" style="width: 300px; height: 400px"></div>
+	<div id="map"></div>
 
 @stop
