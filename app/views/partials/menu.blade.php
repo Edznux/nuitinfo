@@ -8,16 +8,18 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">Accueil</a>
+      <a class="navbar-brand" href="{{{ URL::to( '/') }}}">Accueil</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li ><a href="/map">Map<!--<span class="sr-only">(current)</span>--></a></li>
-		<li><a href="/rules">Règles</a></li>
-        <li {{{ (Request::is('/actu') ? 'class=active' : '') }}}><a href="/actu">Actus</a></li>
-		<li><a href="/messages">Messages</a>
+
+        <li ><a href="{{{ URL::to( '/map') }}}">Map<!--<span class="sr-only">(current)</span>--></a></li>
+		<li><a href="{{{ URL::to( '/rules') }}}">Règles</a></li>
+        <li ><a href="{{{ URL::to( '/actu') }}}">Actus</a></li>
+		<li><a href="{{{ URL::to( '/messages') }}}">Messages</a>
+
         <!--<li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu">

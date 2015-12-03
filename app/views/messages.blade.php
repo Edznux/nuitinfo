@@ -4,14 +4,15 @@
 @section('content')
 	@if (!empty($_POST))
 		<h3>Message envoyé, merci de votre aide.</h3>
-		{{{$_POST['message']}}}
+		"{{{$_POST['message']}}}"
+		
 	@else
 		<h3>Envoie de messages</h3>
 		<p>
 			Si vous avez des événements qui ne sont pas encore sur notre fil d'actualité, n'hésitez pas à nous en faire part. Ici nous sommes à votre écoute.
 
 		</p>	
-		<form id="messages" method="post" action="">
+		{{ Form::open() }}
 			Localisation :
 			<select>
 				@foreach ($villes as $ville)
@@ -21,9 +22,9 @@
 			</br>
 			
 			Message : </br>
-			<textarea name="message" rows="5" cols="100">Que ce passe-t-il en ce moment</textarea>
+			<textarea name="message" rows="5" cols="100" onClick="Clear();">Que ce passe-t-il en ce moment</textarea>
 			</br></br>
 			<input type="Submit" name="envoie" value="Envoyer">
-		</form>
+		{{ Form::close() }}
 	@endif
 @stop
