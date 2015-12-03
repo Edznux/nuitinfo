@@ -11,14 +11,14 @@
 |
 */
  Route::get('/index','HomeController@showIndex');
- Route::get('/messages','AccountController@getMessages');
- Route::post('/messages','AccountController@postMessages');
- Route::get('/actu','AccountController@getActu');
- Route::post('/actu','AccountController@postActu');
- Route::get('/map','AccountController@getMap');
- Route::post('/map','AccountController@postMap');
- Route::get('/rules','AccountController@getRules');
- Route::get('/enfants','AccountController@getEnfants');
+ Route::get('/messages','HomeController@showMessages');
+ Route::post('/messages','HomeController@showMessages');
+ Route::get('/actu','HomeController@showActu');
+ Route::post('/actu','HomeController@showActu');
+ Route::get('/map','HomeController@showMap');
+ Route::post('/map','HomeController@showMap');
+ Route::get('/rules','HomeController@showRules');
+ Route::get('/enfants','HomeController@showEnfants');
 
 //Route::controller('account','AccountController');
 Route::get('/', 'HomeController@showIndex');
