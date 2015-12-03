@@ -9,10 +9,14 @@ class AccountController extends AuthorizedController
 	 * @var      array
 	 */
 	protected $whitelist = array(
-		'getLogin',
-		'postLogin',
-		'getRegister',
-		'postRegister'
+		'getMessages',
+		'postMessages',
+		'getActu',
+		'postActu',
+		'getMap',
+		'postMap',
+		'getRules',
+		'getEnfants'
 	);
 
 	/**

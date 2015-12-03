@@ -22,4 +22,28 @@ class HomeController extends BaseController {
 			->with('other', "Mon autre variable custom");
 	}
 
+	public function showMessages()
+	{
+		return View::make('message');
+	}
+
+	public function showActu()
+	{
+		return View::make('actu');
+	}
+
+	public function showMap()
+	{
+		return View::make('map');
+	}
+
+	public function showRules()
+	{
+		return View::make('rules');
+	}
+
+	public function showEnfants()
+	{
+		return View::make('enfants');
+	}
 }

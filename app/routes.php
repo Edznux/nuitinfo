@@ -10,12 +10,15 @@
 | and give it the Closure to execute when that URI is requested.
 |
 */
- Route::get('/account','AccountController@getIndex');
- Route::post('/account','AccountController@postIndex');
- Route::get('/login','AccountController@getLogin');
- Route::post('/login','AccountController@postLogin');
- Route::get('/account/register','AccountController@getRegister');
- Route::post('/account/register','AccountController@postRegister');
+ Route::get('/index','HomeController@showIndex');
+ Route::get('/messages','HomeController@showMessages');
+ Route::post('/messages','HomeController@showMessages');
+ Route::get('/actu','HomeController@showActu');
+ Route::post('/actu','HomeController@showActu');
+ Route::get('/map','HomeController@showMap');
+ Route::post('/map','HomeController@showMap');
+ Route::get('/rules','HomeController@showRules');
+ Route::get('/enfants','HomeController@showEnfants');
 
 //Route::controller('account','AccountController');
 Route::get('/', 'HomeController@showIndex');
