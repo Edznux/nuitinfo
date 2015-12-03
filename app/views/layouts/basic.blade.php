@@ -7,6 +7,7 @@
 	<title>Nuit Info 2015 uppa</title>
 
 	<link rel="stylesheet" href="/css/main.css">
+	<link rel="stylesheet" href="/css/test.css">
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
