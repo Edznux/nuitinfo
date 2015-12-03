@@ -33,16 +33,15 @@ class HomeController extends BaseController {
 	public function postMessages()
 	{
 		$rules = array(
-        	'message'    => 'required',
-        	'ville' => 'required'
+        	'message'    => 'required|alphaNum',
+        	'ville' => 'required|alphaNum'
     	);
 
 		$validator = Validator::make(Input::all(), $rules);
 
 		if ($validator->fails()) {
 			return Redirect::to('/messages')
-            ->withErrors($validator)
-            ->withInput(Input::except('password'));
+            ->withErrors($validator);
 		}
 		else{
 			DB::table('message')->insert(
