@@ -19,6 +19,7 @@ top  :10%;
 
 img.centerImage
 {
-	 margin-left: 100px;	
+	 position: relative;
+    left: 30px;
 	
 }
