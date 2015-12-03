@@ -3,8 +3,8 @@
 
 @section('content')
 @if(Session::has('success'))
-<h3>{{{$success}}}</h3>
-@else
+<h3>Merci de votre fucking message !</h3>
+@endif
 <div id ="pagetitle"><header>Actualités</header></div>
 
 <div id="message" >
@@ -19,6 +19,6 @@ fjs.parentNode.insertBefore(js,fjs);
 </script>
 </div>
 <div id="maps"></div>
-@endif
+
 
 @stop
