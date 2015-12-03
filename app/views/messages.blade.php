@@ -12,7 +12,6 @@
 
 		</p>	
 		{{ Form::open() }}
-    		{{ Form::token() }}
 			Localisation :
 			<select>
 				@foreach ($villes as $ville)
