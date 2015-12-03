@@ -15,8 +15,8 @@
 			@endforeach
 		</select>
 		</br>
-		</br>
-		Message : 
+		
+		Message : </br>
 		<textarea name="message" rows="5" cols="100">Que ce passe-t-il en ce moment</textarea>
 		</br></br>
 		<input type="Submit" name="envoie" value="Envoyer">
