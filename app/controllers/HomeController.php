@@ -48,7 +48,7 @@ class HomeController extends BaseController {
    				array('message' => Input::get('message'), 'ville' => Input::get('ville'))
 			);
 			return Redirect::to('/')
-			->with("message","Merci d'avoir envoyé votre message");
+			->with('message',"Merci d'avoir envoyé votre message");
 		}	
 	}
 
