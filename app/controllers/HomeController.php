@@ -47,7 +47,7 @@ class HomeController extends BaseController {
 			DB::table('message')->insert(
    				array('message' => Input::get('message'), 'ville' => Input::get('ville'))
 			);
-			Redirect::to('/')
+			return Redirect::to('/')
 			->withSuccess("Merci d'avoir envoyé votre message");
 		}	
 	}
