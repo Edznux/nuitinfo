@@ -2,7 +2,9 @@
 
 
 @section('content')
-<h3>{{{$message}}}</h3>
+@if(Session::has('success'))
+<h3>Merci de votre fucking message !</h3>
+@endif
 <div id ="pagetitle"><header>Actualités</header></div>
 
 <div id="message" >
