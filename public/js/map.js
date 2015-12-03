@@ -3,7 +3,6 @@ var map;
 console.log(position);
 
 function initMap() {
-	position = JSON.parse(position);
 	console.log(position);
 	console.log(position[0]);
 
