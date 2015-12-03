@@ -1,8 +1,8 @@
 @extends('layouts.basic')
 
 
-@section('content')
-	
+@section('content') 
+	<div id="pageRules">
 	<title>Consignes de sécurité</title>
 	
 	<h2> CONSIGNES DE SECURITE EN CAS DE CATASTROPHE NATURELLE</h1>
@@ -100,7 +100,7 @@
 		<li>Tenez-vous informé de l’évolution de la crise en écoutant la radio</li>
 		<li>Ne téléphonez pas afin de laisser libre les lignes pour les secours</li>
 	</ul>
-	
+	</div>
 	
 	
 	
