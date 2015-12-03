@@ -14,10 +14,10 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li ><a href="{{{ URL::to( '/map') }}}">Map</a></li>
-		    <li><a href="{{{ URL::to( '/rules') }}}">Règles</a></li>
-        <li ><a href="{{{ URL::to( '/actu') }}}">Actus</a></li>
-		    <li><a href="{{{ URL::to( '/messages') }}}">Messages</a>
+        <li><a class="menu" href="{{{ URL::to( '/map') }}}">Map</a></li>
+		    <li><a class="menu" href="{{{ URL::to( '/rules') }}}">Règles</a></li>
+        <li><a class="menu" href="{{{ URL::to( '/actu') }}}">Actus</a></li>
+		    <li><a class="menu" href="{{{ URL::to( '/messages') }}}">Messages</a>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

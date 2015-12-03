@@ -4,12 +4,21 @@ body{
 a.currentMenu{
 background:#f0f0f0;
 }
+a.menu{
+	font-size: 18px;
+}
 
 .imageEnfant
 {
 	height:10%;
 position:fixed;
 right:5%;
-top  :15%;
+top  :10%;
 
+}
+
+img.centerImage
+{
+	 margin-left: 100px;	
+	
 }
