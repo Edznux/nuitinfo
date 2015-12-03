@@ -23,7 +23,7 @@
 	<h1>Projet nuit info blabal</h1>
 	@yield('content')
 
-	{{<footer> <img src="../../../pubic/image/numero-urgence.png"></img></footer>}}
+	{{<footer> <img src="/image/numero-urgence.png"></img></footer>}}
 
 	<!-- jquery :'( -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
