@@ -18,6 +18,7 @@
 
 </head>
 <body>
+<img src="./image/emo-peur.png" class="imageEnfant"/>
 	{{-- On inclus le menu dans le layout de base --}}
 	@include('partials.menu')
 

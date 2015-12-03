@@ -1,6 +1,17 @@
-
+body{
+	background-color: #fff;
+}
 a.currentMenu{
-  background:#f0f0f0;
+background:#f0f0f0;
+}
+
+.imageEnfant
+{
+	height:10%;
+position:fixed;
+right:5%;
+top  :10%;
+
 }
 
 div.centerImage

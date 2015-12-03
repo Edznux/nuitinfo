@@ -2,40 +2,28 @@
 
 
 @section('content')
-	@if (!empty($_POST))
-		<h3>Message envoyé, merci de votre aide.</h3>
-		"{{{$_POST['message']}}}"
-		<?php
-			$msg = new Message;
-			$msg->message = $_POST['message'];
-			$msg->ville = $_POST['ville'];
-			$msg->save();
-		?>
+	<h3>Envoie de messages</h3>
+	<p>
+		Si vous avez des événements qui ne sont pas encore sur notre fil d'actualité, n'hésitez pas à nous en faire part. Ici nous sommes à votre écoute.
 
-	@else
-		<h3>Envoie de messages</h3>
-		<p>
-			Si vous avez des événements qui ne sont pas encore sur notre fil d'actualité, n'hésitez pas à nous en faire part. Ici nous sommes à votre écoute.
-
-		</p>	
-		{{ Form::open() }}
-			Localisation :
-			<select name="ville">
-				@foreach ($villes as $ville)
-				    <option value="{{{ $ville->label }}}">{{{ $ville->label }}}</p>
-				@endforeach
-			</select>
-			</br>
-			
-			Message : </br>
-			<script>
-				function clearContents(element) {
-					element.value = '';
-				}
-			</script>
-			<textarea name="message" rows="5" cols="100" onClick="Clear();">Que ce passe-t-il en ce moment</textarea>
-			</br></br>
-			<input type="Submit" name="envoie" value="Envoyer">
-		{{ Form::close() }}
-	@endif
+	</p>	
+	{{ Form::open() }}
+		Localisation :
+		<select name="ville">
+			@foreach ($villes as $ville)
+			    <option value="{{{ $ville->label }}}">{{{ $ville->label }}}</p>
+			@endforeach
+		</select>
+		</br>
+		
+		Message : </br>
+		<script>
+			function clearContents(element) {
+				element.value = '';
+			}
+		</script>
+		<textarea name="message" rows="5" cols="100" onClick="clearContents(this);">Que ce passe-t-il en ce moment</textarea>
+		</br></br>
+		<input type="Submit" name="envoie" value="Envoyer">
+	{{ Form::close() }}
 @stop
