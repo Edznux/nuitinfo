@@ -22,7 +22,7 @@
 =======
         <li ><a href="/map">Map<!--<span class="sr-only">(current)</span>--></a></li>
 		<li><a href="/rules">Règles</a></li>
-        <li {{{ (Request::is('/actu') ? 'class=active' : '') }}}><a href="/actu">Actus</a></li>
+        <li class="{{HTML::isActive('/actu')}}"><a href="/actu">Actus</a></li>
 		<li><a href="/messages">Messages</a>
 >>>>>>> 3912b17146f484300d2bb04cff4b38e07b448a20
         <!--<li class="dropdown">
