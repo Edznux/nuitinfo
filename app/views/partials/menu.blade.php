@@ -8,16 +8,16 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">Accueil</a>
+      <a class="navbar-brand" href="{{{ URL::to( '/') }}}" class="list-group-item {{{ (Request::is('/') ? 'active' : '') }}}">Accueil</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li ><a href="/map">Map<!--<span class="sr-only">(current)</span>--></a></li>
-		<li><a href="/rules">Règles</a></li>
+        <li ><a href="{{{ URL::to( '/map') }}}" class="list-group-item {{{ (Request::is('/map') ? 'active' : '') }}}">Map<!--<span class="sr-only">(current)</span>--></a></li>
+		<li><a href="{{{ URL::to( '/rules') }}}" class="list-group-item {{{ (Request::is('/rules') ? 'active' : '') }}}">Règles</a></li>
         <li ><a href="{{{ URL::to( '/actu') }}}" class="list-group-item {{{ (Request::is('/actu') ? 'active' : '') }}}">Actus</a></li>
-		<li><a href="/messages">Messages</a>
+		<li><a href="{{{ URL::to( '/messages') }}}" class="list-group-item {{{ (Request::is('/messages') ? 'active' : '') }}}">Messages</a>
         <!--<li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu">
