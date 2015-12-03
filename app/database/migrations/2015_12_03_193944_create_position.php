@@ -18,7 +18,7 @@ class CreatePosition extends Migration {
 		        $table->boolean('active')->default(0);
 		        $table->string('lng');
 		        $table->string('lat');
-		        $table->timestamp();
+		        $table->timestamps();
 		});
 	}
 
