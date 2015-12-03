@@ -27,7 +27,7 @@
 
 	<!--{{}}-->
 	<hr>
-	<footer> <img id="img.centerImage" src="/image/numero-urgence.png"></img></footer>
+	<footer id="centerImage" > <img src="/image/numero-urgence.png"></img></footer>
 	<!-- jquery :'( -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
