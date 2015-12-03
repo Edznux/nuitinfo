@@ -17,9 +17,8 @@ top  :10%;
 
 }
 
-footer.centerImage
+#centerImage
 {
-	 position: relative;
+	position: center;
     left: 30px;
-	
 }
