@@ -2,7 +2,7 @@
 
 
 @section('content')
-	<h3>Envoie de messages</h3>
+	<h3>Envoie de messages blabla</h3>
 	<p>
 		Si vous avez des événements qui ne sont pas encore sur notre fil d'actualité, n'hésitez pas à nous en faire part. Ici nous sommes à votre écoute.
 
