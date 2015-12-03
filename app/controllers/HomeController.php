@@ -26,7 +26,8 @@ class HomeController extends BaseController {
 	{
 		$villes = Position::all();
 		foreach ($villes as $ville) {
-			$listvilles[] = $ville->label;
+			//$listvilles[] = $ville->label;
+			echo $ville->label;
 		}
 
 		return View::make('messages')
