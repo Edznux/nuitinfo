@@ -31,7 +31,7 @@ class HomeController extends BaseController {
 		}
 
 		return View::make('messages')
-				->with('villes',$listvilles);
+				/*->with('villes',$listvilles)*/;
 	}
 
 	public function showActu()
