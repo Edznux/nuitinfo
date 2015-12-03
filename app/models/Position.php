@@ -1,3 +1,5 @@
-class Position extends Eloquent{
-	protected $table = 'position';
-}
+<?php
+	class Position extends Eloquent{
+		protected $table = 'position';
+	}
+?>
