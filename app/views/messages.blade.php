@@ -8,8 +8,7 @@
 
 	</p>	
 	<form id="messages" method="post" action="">
-		<!--{{{var_dump($villes)}}}
-		Localisation :-->
+		Localisation :
 		<select>
 			<option value="Pau">Pau</option>
 		  	<option value="Paris">Paris</option>
