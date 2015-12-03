@@ -15,9 +15,9 @@
 			@endforeach
 		</select>
 		</br>
-		<button type="button">Ajouter une ville</button>
-		</br></br>
-		Message : <textarea name="message" rows="5" cols="100">Que ce passe-t-il en ce moment</textarea>
+		</br>
+		Message : 
+		<textarea name="message" rows="5" cols="100">Que ce passe-t-il en ce moment</textarea>
 		</br></br>
 		<input type="Submit" name="envoie" value="Envoyer">
 	</form>
