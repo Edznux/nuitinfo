@@ -89,8 +89,8 @@
 	<h2>Pendant</h2>
 	<ol>
 		<li>Fuyez latéralement</li>
-		<li>Réfugiez-vous sur le point haut le plus proche<li>
-		<li>Eloignez-vous de la zone dangereuse et ne revenez pas sur vos pas<li>
+		<li>Réfugiez-vous sur le point haut le plus proche</li>
+		<li>Eloignez-vous de la zone dangereuse et ne revenez pas sur vos pas</li>
 	</ol>
 	
 	<h2>Après</h2>
