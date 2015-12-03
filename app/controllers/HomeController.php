@@ -36,8 +36,8 @@ class HomeController extends BaseController {
         	'message' => 'required|alphaNum',
         	'ville' => 'required|alphaNum'
     	);
-
-		die (Input::all());
+		dd(Input::all());
+		die();
 		$validator = Validator::make(Input::all(), $rules);
 
 		if ($validator->fails()) {
