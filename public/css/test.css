@@ -1,11 +1,6 @@
-.imagehaut
+body
 {
-top:0px;
-left:0px;
-width: 200px;
-height: 350px;
-background-image: url('./../../public/image/emo-peur.png');
-background-repeat: no-repeat;
-background-position: left bottom ;
-position:absolute;
+background: url("./../../public/image/emo-peur.png") left top no-repeat #1e1d1c;
+    font-family:Trebuchet MS,Tahoma,sans-serif;
 }
+

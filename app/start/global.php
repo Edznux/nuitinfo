@@ -67,6 +67,13 @@ App::down(function()
 	return Response::make("Be right back!", 503);
 });
 
+/* Here we are checking if the request matches the url. 
+If so, we are adding an active class to the menu item. */
+
+HTML::macro('isActive', function($url) {
+     return Request::is($url) ? 'active' : '';
+});
+
 /*
 |--------------------------------------------------------------------------
 | Require The Filters File
