@@ -41,7 +41,7 @@ class HomeController extends BaseController {
 
 		if ($validator->fails()) {
 			return Redirect::to('/messages')
-            ->withErrors($validator));
+            ->withErrors($validator);
 		}
 		else{
 			DB::table('message')->insert(
