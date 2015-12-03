@@ -8,15 +8,15 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="ni.edznux.fr/map">Map</a>
+      <a class="navbar-brand" href="/map">Map</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="ni.edznux.fr/rules">Règles <span class="sr-only">(current)</span></a></li>
-        <li><a href="ni.edznux.fr/actu">Actus</a></li>
-		<li><a href="ni.edznux.fr/messages">Messages</a>
+        <li class="active"><a href="/rules">Règles <span class="sr-only">(current)</span></a></li>
+        <li><a href="/actu">Actus</a></li>
+		<li><a href="/messages">Messages</a>
         <!--<li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu">
