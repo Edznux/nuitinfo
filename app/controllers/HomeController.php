@@ -32,7 +32,7 @@ class HomeController extends BaseController {
 
 	public function postMessages()
 	{
-		/*$rules = array(
+		$rules = array(
         	'message'    => 'required|alphaNum',
         	'ville' => 'required|alphaNum'
     	);
@@ -41,13 +41,13 @@ class HomeController extends BaseController {
 
 		if ($validator->fails()) {
 			return Redirect::to('/messages')
-            ->withErrors($validator);
+            ->withErrors($validator));
 		}
-		else{*/
+		else{
 			DB::table('message')->insert(
    				array('message' => Input::get('message'), 'ville' => Input::get('ville'))
 			);
-		//}	
+		}	
 	}
 
 	public function showActu()
