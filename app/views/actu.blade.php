@@ -2,6 +2,7 @@
 
 
 @section('content')
+<h3>{{{$message}}}</h3>
 <div id ="pagetitle"><header>Actualités</header></div>
 
 <div id="message" >
