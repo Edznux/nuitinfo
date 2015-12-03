@@ -24,7 +24,7 @@ class HomeController extends BaseController {
 
 	public function showMessages()
 	{
-		$villes = DB::table('position')->select('ville')->get();
+		$villes = DB::table('position')->select('label')->get();
 
 		foreach ($villes as $ville)
 		{
