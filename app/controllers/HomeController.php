@@ -24,7 +24,7 @@ class HomeController extends BaseController {
 
 	public function showMessages()
 	{
-		return View::make('message');
+		return View::make('messages');
 	}
 
 	public function showActu()
