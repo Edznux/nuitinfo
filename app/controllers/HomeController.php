@@ -24,11 +24,10 @@ class HomeController extends BaseController {
 
 	public function showMessages()
 	{
-		$villes = DB::table('position')->select('label')->get();
+		$villes = Position::all();
 
-		foreach ($villes as $ville)
-		{
-		    $listvilles[]=$ville;
+		foreach ($villes as $ville) {
+			$listvilles[] = $ville->label;
 		}
 
 		return View::make('messages')
