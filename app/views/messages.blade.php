@@ -10,16 +10,15 @@
 	<form id="messages" method="post" action="">
 		Localisation :
 		<select>
-			<option value="Pau">Pau</option>
-		  	<option value="Paris">Paris</option>
-		  	<option value="Bayonne">Bayonne</option>
-		  	<option value="Bordeaux">Bordeaux</option>
+			@foreach ($villes as $ville)
+			    <option value="{{{ $ville->label }}}">{{{ $ville->label }}}</p>
+			@endforeach
 		</select>
 		</br>
 		<button type="button">Ajouter une ville</button>
-		</br>
-		Message : <textarea name="message" rows="5" cols="100">Que ce passe t'il en ce moment</textarea>
-		</br>
+		</br></br>
+		Message : <textarea name="message" rows="5" cols="100">Que ce passe-t-il en ce moment</textarea>
+		</br></br>
 		<input type="Submit" name="envoie" value="Envoyer">
 	</form>
 @stop
