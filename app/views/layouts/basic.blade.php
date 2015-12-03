@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
 	
 	<link rel="stylesheet" href="/css/main.css">
-	<link rel="stylesheet" href="/css/test.css">
+<!--	<link rel="stylesheet" href="/css/test.css">-->
 
 
 
