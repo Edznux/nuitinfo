@@ -4,7 +4,7 @@
 @section('content')
 	@if (!empty($_POST))
 		<h3>Message envoyé, merci de votre aide.</h3>
-		{{{$_POST['message']}}}
+		"{{{$_POST['message']}}}"
 	@else
 		<h3>Envoie de messages</h3>
 		<p>
