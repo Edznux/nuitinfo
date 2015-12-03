@@ -2,7 +2,11 @@ body{
 	background-color: #fff;
 }
 
-a.currentMenu {
+a.currentMenu{
   background:#4b4b4b;
   color: white;
+}
+.navbar-default .navbar-nav > li > a
+{
+	color:#777;
 }
