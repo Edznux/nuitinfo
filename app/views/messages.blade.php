@@ -8,6 +8,7 @@
 
 	</p>	
 	<form id="messages" method="post" action="">
+		{{{var_dump($villes)}}}
 		Localisation :
 		<select>
 			<option value="Pau">Pau</option>
