@@ -31,11 +31,11 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	
-	//google map api
+	<!-- google map api -->
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBj5sJZH_ZAIG8RXTLgoo26FB0RyrfS4eA&callback=initMap">
     </script>
 
-	// ajout du script de map
+	<!-- // ajout du script de map -->
 	<script src="/js/map.js"></script>
 
 	<!-- custom scripts here -->
