@@ -36,8 +36,7 @@ class HomeController extends BaseController {
         	'message' => 'required',
         	'ville' => 'required'
     	);
-		//dd(Input::all());
-		//die();
+
 		$validator = Validator::make(Input::all(), $rules);
 
 		if ($validator->fails()) {
@@ -48,6 +47,8 @@ class HomeController extends BaseController {
 			DB::table('message')->insert(
    				array('message' => Input::get('message'), 'ville' => Input::get('ville'))
 			);
+			Redirect::to('/')
+			->withSuccess("Merci d'avoir envoyé votre message");
 		}	
 	}
 
