@@ -15,5 +15,5 @@ fjs.parentNode.insertBefore(js,fjs);
 }}(document,"script","twitter-wjs");
 </script>
 </div>
-
+<div "numSecours"><footer>SAMU : 15, Police-secours : 17, Pompiers : 18, Numéro européen d'urgences : 112</footer></div>
 @stop
