@@ -33,8 +33,8 @@ class HomeController extends BaseController {
 	public function postMessages()
 	{
 		$rules = array(
-        	'message' => 'required|alphaNum',
-        	'ville' => 'required|alphaNum'
+        	'message' => 'required',
+        	'ville' => 'required'
     	);
 		dd(Input::all());
 		die();
