@@ -19,6 +19,8 @@ top  :10%;
 
 #centerImage
 {
-	position: center;
-    left: 30px;
-}
+	display: block;
+    margin-left: auto;
+    margin-right: auto ;
+	
+	}
