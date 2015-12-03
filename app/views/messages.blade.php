@@ -5,7 +5,13 @@
 	@if (!empty($_POST))
 		<h3>Message envoyé, merci de votre aide.</h3>
 		"{{{$_POST['message']}}}"
-		
+		<?php
+			$msg = new Message;
+			$msg->message = $_POST['message'];
+			$msg->ville = $_POST['ville'];
+			$msg->save();
+		?>
+
 	@else
 		<h3>Envoie de messages</h3>
 		<p>
@@ -14,7 +20,7 @@
 		</p>	
 		{{ Form::open() }}
 			Localisation :
-			<select>
+			<select name="ville">
 				@foreach ($villes as $ville)
 				    <option value="{{{ $ville->label }}}">{{{ $ville->label }}}</p>
 				@endforeach
@@ -22,6 +28,11 @@
 			</br>
 			
 			Message : </br>
+			<script>
+				function clearContents(element) {
+					element.value = '';
+				}
+			</script>
 			<textarea name="message" rows="5" cols="100" onClick="Clear();">Que ce passe-t-il en ce moment</textarea>
 			</br></br>
 			<input type="Submit" name="envoie" value="Envoyer">
