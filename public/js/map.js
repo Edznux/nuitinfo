@@ -7,4 +7,5 @@ function initMap() {
     	zoom: 8
   	});
 }
+
 console.log("map ok");
