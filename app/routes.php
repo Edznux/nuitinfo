@@ -12,7 +12,7 @@
 */
  Route::get('/index','HomeController@showIndex');
  Route::get('/messages','HomeController@showMessages');
- Route::post('/messages','HomeController@showMessages');
+ Route::post('/messages','HomeController@postMessages');
  Route::get('/actu','HomeController@showActu');
  Route::post('/actu','HomeController@showActu');
  Route::get('/map','HomeController@showMap');

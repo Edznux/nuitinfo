@@ -30,6 +30,33 @@ class HomeController extends BaseController {
 				->with('villes',$villes);
 	}
 
+	public function postMessages()
+	{
+		$rules = array(
+        	'message'    => 'required|alphaNum',
+        	'ville' => 'required|alphaNum'
+    	);
+
+		$validator = Validator::make(Input::all(), $rules);
+
+		if ($validator->fails()) {
+			return Redirect::to('/')
+            ->withErrors($validator)
+            ->withInput(Input::except('password'));
+		}
+		else{
+			$messageD = array(
+	            'message'  => Input::get('message'),
+	            'ville'  => Input::get('ville')
+	        );
+
+			$msg = new Message;
+			$msg->message = $messageD['message'];
+			$msg->ville = $messageD['ville'];
+			$msg->save();
+		}	
+	}
+
 	public function showActu()
 	{
 		return View::make('actu');
