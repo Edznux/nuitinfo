@@ -3,5 +3,6 @@ body{
 }
 
 a.currentMenu {
-  background:white;
+  background:#4b4b4b;
+  color: white;
 }
