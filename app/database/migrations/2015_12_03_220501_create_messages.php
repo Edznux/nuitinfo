@@ -12,7 +12,11 @@ class CreateMessages extends Migration {
 	 */
 	public function up()
 	{
-		//
+		Schema::create('message', function($table){
+		        $table->increments('id');
+		        $table->string('message');
+		        $table->string('ville');
+		});
 	}
 
 	/**
@@ -22,7 +26,7 @@ class CreateMessages extends Migration {
 	 */
 	public function down()
 	{
-		//
+		Schema::drop('message');
 	}
 
 }
