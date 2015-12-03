@@ -1,6 +1,10 @@
 body{
 	background-color: #fff;
 }
+a.currentMenu{
+background:#4b4b4b;
+}
+
 .imageEnfant
 {
 	height:10%;
