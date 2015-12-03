@@ -24,7 +24,15 @@ class HomeController extends BaseController {
 
 	public function showMessages()
 	{
-		return View::make('messages');
+		$villes = DB::table('position')->select('ville')->get();
+
+		foreach ($villes as $ville)
+		{
+		    $listvilles[]=$ville;
+		}
+
+		return View::make('messages')
+				->with('villes',$listvilles);
 	}
 
 	public function showActu()
