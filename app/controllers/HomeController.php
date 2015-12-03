@@ -32,23 +32,22 @@ class HomeController extends BaseController {
 
 	public function postMessages()
 	{
-		$rules = array(
-        	'message'    => 'required',
-        	'ville' => 'required'
+		/*$rules = array(
+        	'message'    => 'required|alphaNum',
+        	'ville' => 'required|alphaNum'
     	);
 
 		$validator = Validator::make(Input::all(), $rules);
 
 		if ($validator->fails()) {
 			return Redirect::to('/messages')
-            ->withErrors($validator)
-            ->withInput(Input::except('password'));
+            ->withErrors($validator);
 		}
-		else{
+		else{*/
 			DB::table('message')->insert(
    				array('message' => Input::get('message'), 'ville' => Input::get('ville'))
 			);
-		}	
+		//}	
 	}
 
 	public function showActu()
