@@ -21,7 +21,7 @@
  Route::get('/enfants','HomeController@showEnfants');
 
 //Route::controller('account','AccountController');
-Route::get('/', 'HomeController@showIndex');
+Route::get('/', 'HomeController@showActu');
 
 /*
 Route::get('/', function()
