@@ -16,7 +16,7 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="/map">Map<!--<span class="sr-only">(current)</span>--></a></li>
 		<li><a href="/rules">Règles</a></li>
-        <li class="{{ Request::is( '/actu') ? 'active' : '' }}"><a href="{{ URL::to( '/actu') }}">Actus</a></li>
+        <li class="{{{ Request::is( '/actu') ? 'active' : '' }}}"><a href="{{{ URL::to( '/actu') }}}">Actus</a></li>
 		<li><a href="/messages">Messages</a>
         <!--<li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
