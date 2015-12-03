@@ -7,6 +7,7 @@
 	<title>Nuit Info 2015 uppa</title>
 
 	<link rel="stylesheet" href="/css/main.css">
+	<link rel="stylesheet" href="/css/test.css">
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -22,13 +23,16 @@
 	<h1>Projet nuit info blabal</h1>
 	@yield('content')
 
-	{{-- On peut rajouter un footer ici--}}
+	{{<footer> <img src="/image/numero-urgence.png"></img></footer>}}
 
 	<!-- jquery :'( -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="/js/map.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBj5sJZH_ZAIG8RXTLgoo26FB0RyrfS4eA&callback=initMap">
+    </script>
 
 	<!-- custom scripts here -->
 	<script src="/js/main.js"></script>

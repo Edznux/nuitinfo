@@ -14,10 +14,17 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
+<<<<<<< HEAD
         <li ><a href="{{{ URL::to( '/map') }}}" class="list-group-item {{{ (Request::is('/map') ? 'active' : '') }}}">Map<!--<span class="sr-only">(current)</span>--></a></li>
 		<li><a href="{{{ URL::to( '/rules') }}}" class="list-group-item {{{ (Request::is('/rules') ? 'active' : '') }}}">Règles</a></li>
         <li ><a href="{{{ URL::to( '/actu') }}}" class="list-group-item {{{ (Request::is('/actu') ? 'active' : '') }}}">Actus</a></li>
 		<li><a href="{{{ URL::to( '/messages') }}}" class="list-group-item {{{ (Request::is('/messages') ? 'active' : '') }}}">Messages</a>
+=======
+        <li ><a href="/map">Map<!--<span class="sr-only">(current)</span>--></a></li>
+		<li><a href="/rules">Règles</a></li>
+        <li {{{ (Request::is('/actu') ? 'class=active' : '') }}}><a href="/actu">Actus</a></li>
+		<li><a href="/messages">Messages</a>
+>>>>>>> 3912b17146f484300d2bb04cff4b38e07b448a20
         <!--<li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu">
