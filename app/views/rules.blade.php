@@ -103,7 +103,7 @@
 	
 	<h1>Les gestes qui sauvent.</h1>
 	<ol>	
-		<li>La Photo de l'accident :</li>
+		<li id="InBold" >La Photo de l'accident :</li>
 	<p>
 	Aucun accident ne survient sans cause... 
 	Il faut garder à l'esprit lorsqu'on est témoin d'un accident que cette cause est peut-être toujours présente et qu'elle peut provoquer un autre accident (on appelle cela le suraccident).
@@ -116,7 +116,7 @@
 	Avant de se précipiter, il convient de prendre le temps de repérer les éventuels dangers, essayer de comprendre rapidement ce qui s'est passé.
 	</p>
 	
-	<li> La Protection :</li>
+	<li id="InBold" > La Protection :</li>
 	<p>
 	Grâce à votre analyse rapide de la situation, vous avez repéré un danger pour vous, pour la victime ou pour les autres. 
 	Vous devez désormais vous poser une question très importante :
@@ -156,7 +156,7 @@
 	Ça ne se fait pas n'importe comment, il y a des techniques simples pour dégager les victimes sans trop les casser mais il faut s'entraîner et là, rien ne remplace la formation pratique : le PSC1.
 	</p>
 	
-	<li>Secourir :</li>
+	<li id="InBold" >Secourir :</li>
 	<p>
 		Une fois le danger écarté vous devez pratiquer "les gestes qui sauvent" et pour reprendre le slogan de la Croix-Rouge française, "sauver une vie, ça s'apprend !" En attendant, respectez ces quelques règles :
 	</p>	
@@ -202,7 +202,7 @@
 	
 	</ul>
 	
-	<li id="InBold">Que dire ?</li>
+	<li id="InBold" >Que dire ?</li>
 	<ul>
 		<li>Décrivez rapidement la situation. Expliquez la NATURE de l'accident (afin qu'on vous envoie des secours ADAPTÉS)</li>
 		<li>Donnez le nombre de victimes (1 victime = 1 camion, 20 victimes = 1 plan rouge ! )</li>	
