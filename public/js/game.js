@@ -85,12 +85,12 @@ function openWindow(){
 
 
 function attaquerP2Sabre(){
-    vieP1 = vieP1 - attaqueP2Sabre;
-}
-function attaquerP1Sabre(){
     vieP2 = vieP2 - attaqueP1Sabre;
 }
-function attaquerP1Force(){
+function attaquerP1Sabre(){
+    vieP1 = vieP1 - attaqueP2Sabre;
+}
+function attaquerP2Force(){
     vieP2 = vieP2 - attaqueP1Force;
 }
 function cleanAll(){
@@ -116,7 +116,7 @@ document.addEventListener('keydown', function (e){
     }  
     if(e.keyCode == 'Z'.charCodeAt(0) ) {
         e.preventDefault();
-        attaquerP1Force();
+        attaquerP2Force();
         personnage1.loadTexture('personnage1Force');
         personnage2.y=50;
 
@@ -133,14 +133,12 @@ document.addEventListener('keydown', function (e){
 document.addEventListener('keyup', function (e){
     if(e.keyCode == 'A'.charCodeAt(0) ) {
         e.preventDefault();
-        attaquerP2();
         personnage1.x=0;
         personnage1.y=200;
         personnage1.loadTexture('personnage1');
     }  
         if(e.keyCode == 'Z'.charCodeAt(0) ) {
         e.preventDefault();
-        attaquerP1Force();
         personnage1.loadTexture('personnage1');
 
     }  
