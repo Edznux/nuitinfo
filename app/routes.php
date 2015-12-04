@@ -24,7 +24,7 @@
  Route::get('/position','AccountController@getPos');
  Route::post('/position','AccountController@postPos');
  Route::get('/moderer','AccountController@getModerer');
- Route::post('/moderer','AccountController@postModerer');
+ Route::post('/moderer/{id}',['uses'=>'AccountController@postModerer']);
 
 //Route::controller('account','AccountController');
 Route::get('/', 'HomeController@showActu');
