@@ -28,7 +28,7 @@ $(document).ready(
 		manière synthétique les consignes de sécurité que vous devrez appliquer en cas de 
 		catastrophe naturelle.
 	</p>
-	<div id="Inondation"><h1>En cas d’inondation</h1></div>
+	<div id="Inondation"><h1>En cas d’inondation</h1>
 		<div id="Cadre_Inondation" style="border:hidden;">
 			
 			<h3>Avant la crue :</h3>
@@ -68,6 +68,7 @@ $(document).ready(
 				<li>Renseignez-vous auprès de la Mairie pour connaître les démarches à engager.</li>
 			</ul>
 		</div>
+	</div>
 	<h1>En cas de séisme</h1>
 	<h3>Pendant la secousse</h3>
 	<h4>Si vous êtes à l’intérieur d’un bâtiment :</h4>
