@@ -7,6 +7,7 @@
 		Si vous avez des événements qui ne sont pas encore sur notre fil d'actualité, n'hésitez pas à nous en faire part. Ici nous sommes à votre écoute.
 
 	</p>	
+	<div align="left">
 	{{ Form::open() }}
 		Localisation :
 		<select name="ville">
@@ -26,4 +27,5 @@
 		</br></br>
 		<input type="Submit" name="envoie" value="Envoyer">
 	{{ Form::close() }}
+	</div>
 @stop
