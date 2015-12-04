@@ -13,20 +13,16 @@
 	
 	<link rel="stylesheet" href="/css/main.css">
 <!--	<link rel="stylesheet" href="/css/test.css">-->
-       <script type="text/javascript" src="js/lib-egg.js"></script>
-    <script type="text/javascript" src="js/lib-jQuery.js"></script>
-    <script type="text/javascript" src="js/lib-phaser.min.js"></script>
-    <script type="text/javascript" src="js/easterEgg.js"></script>
-    <script type="text/javascript" src="js/game.js"></script>
 
 
 </head>
 <body>
+
 <div align="center">
 	{{-- On inclus le menu dans le layout de base --}}
 	@include('partials.menu')
 
-	<h1>Projet nuit info 2015</h1>
+	<!--<h1>Projet nuit info 2015</h1>
 	@yield('content')
 
 	<!--{{}}-->
@@ -50,7 +46,6 @@
 	<script src="/js/main.js"></script>
 	</div>
 	</div>
-    <div id="gameId"> </div>
 
 </body>
 </html>
