@@ -116,7 +116,7 @@ class AccountController extends AuthorizedController
 		}
 		else{
 			DB::table('position')->insert(
-   				array('ville' => Input::get('ville'), 'lng' => Input::get('long'), 'lat' => Input::get('lat'))
+   				array('label' => Input::get('ville'), 'lng' => Input::get('long'), 'lat' => Input::get('lat'))
 			);
 			return Redirect::to('position')
 			->with('success',"Position ajoutée");
