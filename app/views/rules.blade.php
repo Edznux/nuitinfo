@@ -2,21 +2,7 @@
 
 
 @section('content') 
-<script>
-$(document).ready(
-		function()
-		{
-			$("#Inondation").click(
-				function()
-				{
-					$("#Cadre_Inondation").slideToggle("slow");
-				}
-			);
-		
-		}
-	);
-	
-</script>
+
 
 
 	<div id="pageRules">
@@ -240,3 +226,4 @@ $(document).ready(
 	
 	
 @stop
+<script src="/public/js/api-rules.js="></script>
