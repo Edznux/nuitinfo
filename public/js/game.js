@@ -27,12 +27,12 @@ var style = { font: "32px Arial", fill: "#01DF01", wordWrap: true, wordWrapWidth
 
 
 function preload() {
-    game.load.image("background", "../img/fond.png");
-    game.load.image("question", "../img/question.png");
-    game.load.image("personnage1", "../img/Stick1A1.png");
-    game.load.image("personnage1V", "../img/Stick1A2.png");
-    game.load.image("personnage2", "../img/Stick2A1.png");
-    game.load.image("personnage2V", "../img/Stick2A2.png");
+    game.load.image("background", "/img/fond.png");
+    game.load.image("question", "/img/question.png");
+    game.load.image("personnage1", "/img/Stick1A1.png");
+    game.load.image("personnage1V", "/img/Stick1A2.png");
+    game.load.image("personnage2", "/img/Stick2A1.png");
+    game.load.image("personnage2V", "/img/Stick2A2.png");
 
 
 }
