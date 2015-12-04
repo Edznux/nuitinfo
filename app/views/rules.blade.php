@@ -13,7 +13,7 @@
 	</p>
 	<h1>En cas d’inondation</h1>
 	
-	<h3>Avant la crue</h3>
+	<h3>Avant la crue :</h3>
 	<h4>Si vous êtes à l’intérieur d’un bâtiment :</h4>
 	<ul>
 		<li>Fermez  portes,  fenêtres,  soupiraux  pour  ralentir  l’entrée  de  l’eau  et  limiter  les dégâts.</li>
