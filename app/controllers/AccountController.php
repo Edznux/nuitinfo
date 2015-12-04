@@ -56,9 +56,18 @@ class AccountController extends AuthorizedController
 		if ($validator->passes())
 		{
 
-			// Redirect to the register page.
-			//
-			return Redirect::to('position')->with('success', 'Connecté !');
+			if (Auth::attempt(array('email' => Input::get('email'), 'password' => Input::get('password'))))
+			{
+				// Redirect to the users page.
+				//
+				return Redirect::to('position')->with('success', 'You have logged in successfully');
+			}
+			else
+			{
+				// Redirect to the login page.
+				//
+				return Redirect::to('account/login')->with('error', 'Email/password invalid.');
+			}
 		}
 
 		// Something went wrong.
