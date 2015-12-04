@@ -3,7 +3,7 @@
 
 @section('content')
 @if(Session::has('success'))
-<h3>Merci de votre fucking message !</h3>
+<h3>Merci de votre message !</h3>
 @endif
 
     <script type="text/javascript" src="js/lib-egg.js"></script>
@@ -11,7 +11,7 @@
     <script type="text/javascript" src="js/lib-phaser.min.js"></script>
     <script type="text/javascript" src="js/easterEgg.js"></script>
 
-<div id ="pagetitle"><header>Actualités</header></div>
+<h1>Actualités</h1></div>
 
 <div id="message" >
 <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
