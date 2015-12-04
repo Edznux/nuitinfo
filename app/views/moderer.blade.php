@@ -7,7 +7,6 @@
 	<h3>Modérer des messages</h3>
 
 	@foreach($messages as $message)
-<<<<<<< HEAD
 		<table width="50%" border=1>
 			<tr> 
 				<td>{{{$message->message}}} </td>
@@ -20,7 +19,6 @@
 				{{ Form::close() }}
 			</tr>
 		</table>
-=======
 		{{ Form::open(array('url'=>"/moderer/$message->id") )}}
 			<table>
 				<tr> 
@@ -32,6 +30,5 @@
 				</tr>
 			</table>	
 		{{ Form::close() }}
->>>>>>> 2b55842fbe2d2e6eafbf5b60b6cda256ad906829
 	@endforeach
 @stop
