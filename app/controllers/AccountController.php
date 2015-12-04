@@ -151,6 +151,7 @@ class AccountController extends AuthorizedController
 		{
 			$suppr = Message::where('id','=',$id)->delete();
 		}
+		return Redirect::to('moderer')->with('success', 'Logged out with success!');
 	}
 
 	/**
