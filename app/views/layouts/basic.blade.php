@@ -28,6 +28,7 @@
 
 	<!--{{}}-->
 	<hr>
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 	<footer  > <img id="centerImage" src="/image/numero-urgence.png"></img></footer>
 	<!-- jquery :'( -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -44,6 +45,7 @@
 
 	<!-- custom scripts here -->
 	<script src="/js/main.js"></script>
+	</div>
 	</div>
 </body>
 </html>
