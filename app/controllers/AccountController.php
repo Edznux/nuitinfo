@@ -47,9 +47,6 @@ class AccountController extends AuthorizedController
 		//
 		$inputs = Input::all();
 
-		dd($inputs);
-		die();
-
 		// Validate the inputs.
 		//
 		$validator = Validator::make($inputs, $rules);
@@ -61,12 +58,12 @@ class AccountController extends AuthorizedController
 
 			// Redirect to the register page.
 			//
-			return Redirect::to('/position')->with('success', 'Connecté !');
+			return Redirect::to('/')->with('success', 'Connecté !');
 		}
 
 		// Something went wrong.
 		//
-		return Redirect::to('/position')->withInput($inputs)->withErrors($validator->getMessageBag());
+		return Redirect::to('account/login')->withInput($inputs)->withErrors($validator->getMessageBag());
 	}
 
 	/**
