@@ -16,6 +16,10 @@ a.menu{
 
 }
 
+.cadre{
+	border-bottom-style:solid;
+}
+
 #pageRules
 {
 	position:static;

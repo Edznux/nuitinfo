@@ -30,7 +30,7 @@ fjs.parentNode.insertBefore(js,fjs);
 	var position = {{ $position }}
 	</script>
 	<div id="map" class="map-actu"></div>
-	<div class="messages">
+	<div class="messages" class="cadre">
 		@foreach($messages as $mes)
 				{{{$mes->message}}}
 				</br>
