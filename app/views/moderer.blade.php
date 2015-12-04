@@ -7,7 +7,7 @@
 	<h3>Modérer des messages</h3>
 
 	@foreach($messages as $message)
-		<table>
+		<table width="50%" border=1>
 			<tr> 
 				<td>{{{$message->message}}} </td>
 				{{ Form::open(array('url'=>"/moderer/$message->id") )}}		
