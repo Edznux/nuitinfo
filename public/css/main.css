@@ -17,7 +17,8 @@ a.menu{
 }
 
 #cadre{
-	border-bottom-style:solid;
+	background-color:white;
+	font-weight:bold;
 }
 
 #pageRules

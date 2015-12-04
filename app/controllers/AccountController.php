@@ -123,6 +123,36 @@ class AccountController extends AuthorizedController
 		}	
 	}
 
+	public function getModerer()
+	{
+		// Are we logged in?
+		//
+		if (Auth::check())
+		{
+			return View::make('/moderer')->with('messages', Message::all());
+		}
+
+		return View::make('/');
+	}
+
+	/**
+	 * Login form processing.
+	 *
+	 * @access   public
+	 * @return   Redirect
+	 */
+
+	public function postModerer($id)
+	{
+		if(Input::get('modifier') !== null){
+			$modif = Message::where('id','=',$id)->update(array('active' => 1));
+		}
+		else
+		{
+			$suppr = Message::where('id','=',$id)->delete();
+		}
+	}
+
 	/**
 	 * Logout page.
 	 *

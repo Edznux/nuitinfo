@@ -2,23 +2,10 @@
 
 
 @section('content') 
-<script>
-$(document).ready(
-		function()
-		{
-			$("#Inondation").click(
-				function()
-				{
-					$("#Cadre_Inondation").slideToggle("slow");
-				}
-			);
-		
-		}
-	);
-	
-</script>
 
 
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 	<div id="pageRules">
 	<title>Consignes de sécurité</title>
 	
@@ -28,8 +15,9 @@ $(document).ready(
 		manière synthétique les consignes de sécurité que vous devrez appliquer en cas de 
 		catastrophe naturelle.
 	</p>
-	<div id="Inondation"><h1>En cas d’inondation</h1></div>
-		<div id="Cadre_Inondation" style="display:none;">
+
+	<h1>En cas d’inondation</h1>
+	
 			
 			<h3>Avant la crue :</h3>
 			<h4>Si vous êtes à l’intérieur d’un bâtiment :</h4>
@@ -67,7 +55,7 @@ $(document).ready(
 				<li>Chauffez dès que possible.</li>
 				<li>Renseignez-vous auprès de la Mairie pour connaître les démarches à engager.</li>
 			</ul>
-		</div>
+	
 	
 	<h1>En cas de séisme</h1>
 	<h3>Pendant la secousse</h3>
@@ -236,7 +224,10 @@ $(document).ready(
 	<li id="InBold" >NE RACCROCHEZ JAMAIS EN PREMIER !</li>
 	</ol>
 	</div>
+	</div>
+	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
 	
 	
 	
 @stop
+

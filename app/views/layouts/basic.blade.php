@@ -19,7 +19,7 @@
 </head>
 <body>
 
-<div align="center">
+<!--<div align="center">-->
 	{{-- On inclus le menu dans le layout de base --}}
 	@include('partials.menu')
 
@@ -46,7 +46,7 @@
 	<!-- custom scripts here -->
 	<script src="/js/main.js"></script>
 	</div>
-	</div>
+	<!--</div>-->
 
 </body>
 </html>
