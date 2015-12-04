@@ -78,7 +78,7 @@ class AccountController extends AuthorizedController
 		//
 		if (Auth::check())
 		{
-			return Redirect::to('/position')->with('user', Auth::user());
+			return Redirect::to('position')->with('user', Auth::user());
 		}
 
 		// Show the page.
@@ -104,14 +104,14 @@ class AccountController extends AuthorizedController
 		$validator = Validator::make(Input::all(), $rules);
 
 		if ($validator->fails()) {
-			return Redirect::to('/position')
+			return Redirect::to('position')
             ->withErrors($validator);
 		}
 		else{
 			DB::table('position')->insert(
    				array('ville' => Input::get('ville'), 'lng' => Input::get('long'), 'lat' => Input::get('lat'))
 			);
-			return Redirect::to('/position')
+			return Redirect::to('position')
 			->with('success',"Position ajoutée");
 		}	
 	}
