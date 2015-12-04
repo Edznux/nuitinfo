@@ -1,14 +1,5 @@
- <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<link rel="stylesheet" href="enfants.blade.css" />
-			<title>edznux.fr</title>
-
-			
-</head>
-<body>
-	<section id="section" class="main-section first-section">
+<div class="bodyKid">
+<section id="section" class="main-section first-section">
 			<div class="container">
 				<p class="bigtxt txtcenter">Parce qu'une crise est en cours, rester informé est vital</p>
 			</div>
@@ -45,6 +36,4 @@
 	<figure>
 		<a href="chemin vers la page adulte"><img src="chemin de l'icone adulte" alt="icone de secours"/>
 	</figure>
-
-</body>
-</html>
+	</div>
