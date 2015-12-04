@@ -100,6 +100,45 @@
 		<li>Tenez-vous informé de l’évolution de la crise en écoutant la radio</li>
 		<li>Ne téléphonez pas afin de laisser libre les lignes pour les secours</li>
 	</ul>
+	
+	<h1>Les gestes qui sauvent.</h1>
+	<ol>	
+		<li>La Photo de l'accident :</li>
+	<p>
+	Aucun accident ne survient sans cause... 
+	Il faut garder à l'esprit lorsqu'on est témoin d'un accident que cette cause est peut-être toujours présente et qu'elle peut provoquer un autre accident (on appelle cela le suraccident).
+	Un exemple simple: Une personne se blesse en cassant un verre. 
+	Les morceaux de verre s'éparpillent sur le sol. 
+	Il y a donc une victime et une cause.
+	Un sauveteur intervient sans faire attention aux morceaux de verre éparpillés sur le sol. 
+	En s'agenouillant, il se blesse à son tour. Il y a désormais deux victimes... (et du coup plus de sauveteur !).
+	Cette situation peut être évitée si le sauveteur (vous) prend le temps de faire ce que j'appelle la "photo de l'accident".
+	Avant de se précipiter, il convient de prendre le temps de repérer les éventuels dangers, essayer de comprendre rapidement ce qui s'est passé.
+	</p>
+	
+	<li> La Protection :</li>
+	<p>
+	Grâce à votre analyse rapide de la situation, vous avez repéré un danger pour vous, pour la victime ou pour les autres. 
+	Vous devez désormais vous poser une question très importante :
+	Est-ce que je peux supprimer ce danger facilement sans mettre ma propre vie en danger (non pas par égoïsme mais parce qu'un sauveteur mort ne peut plus sauver personne...).
+	Si cela est possible vous devez donc supprimer ce danger (on appelle cela assurer la protection).
+	</p>
+	
+	<p>
+	
+	L'un des exemples les plus "parlants" est celui des personnes électrisées (on ne parle d'électrocutés que lorsque les électrisés sont morts et en secourisme la victime n'est jamais considérée comme morte.
+	Au pire elle peut être en arrêt cardiaque, ce qui ne signifie en aucun cas qu'elle est décédée).
+	Donc, notre électrisé peut tout à fait être encore en contact avec le fil électrique qui a provoqué l'accident. 
+	Le corps humain est un excellent conducteur électrique (n'oublions pas qu'il est composé à 80 % d'eau).
+	Si un sauveteur trop pressé rentre en contact physique avec le corps sous tension il risque de se retrouver dans le même état que la victime (voire dans un état pire encore).
+	</p>
+	
+	
+	<p>
+	Une "photo" rapide permet de repérer le moyen de couper le courant (en débranchant la prise tout simplement ou en utilisant un disjoncteur si la prise est douteuse ou inaccessible).
+	</p>
+	
+	</ol>
 	</div>
 	
 	
