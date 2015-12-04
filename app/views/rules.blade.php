@@ -29,8 +29,7 @@ $(document).ready(
 		catastrophe naturelle.
 	</p>
 	<div id="Inondation"><h1>En cas d’inondation</h1></div>
-		<div id="Cadre_Inondation" style="border:hidden; border-radius:hidden;width:30px;height:15px;
-					padding:hidden; background-color:#7f7f7f">
+		<div id="Cadre_Inondation" style="border:hidden;">
 			
 			<h3>Avant la crue :</h3>
 			<h4>Si vous êtes à l’intérieur d’un bâtiment :</h4>
