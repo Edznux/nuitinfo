@@ -13,7 +13,7 @@
 			<div class="container text-justify">
 			
 				
-				<h3>TERRORISME ET ATTENTAT</h3>
+			<h3>TERRORISME ET ATTENTAT</h3>
 <p>
 Le terrorisme, c'est lorsqu'une personne cherche à semer la terreur auprès d'un
 groupe de personne, comme par exemple les français, ou encore les habitants de la
