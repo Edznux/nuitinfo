@@ -144,12 +144,16 @@ class AccountController extends AuthorizedController
 
 	public function postModerer($id)
 	{
+		$mess = Message::where('id','=',$id);
 		if(Input::get('modifier') !== null){
-			$modif = Message::where('id','=',$id)->update(array('active' => 1));
+			if($mess->active == 1)
+				$mess->update(array('active' => 0));
+			else
+				$mess->update(array('active' => 1));
 		}
 		else
 		{
-			$suppr = Message::where('id','=',$id)->delete();
+			$mess->delete();
 		}
 		return Redirect::to('moderer')->with('success', 'Logged out with success!');
 	}

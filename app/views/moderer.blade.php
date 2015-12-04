@@ -10,6 +10,7 @@
 		<table>
 			<tr> 
 				<td>{{{$message->message}}} </td>
+				<td>{{{$message->active}}} </td>
 				{{ Form::open(array('url'=>"/moderer/$message->id") )}}		
 							<td><input type="submit" name="modifier" value="Modifier"></td>
 				{{ Form::close() }}
