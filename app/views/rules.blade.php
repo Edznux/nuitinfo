@@ -227,3 +227,4 @@
 	
 @stop
 <script src="/public/js/api-rules.js="></script>
+<script src="jquery-ui.min.js"></script>
