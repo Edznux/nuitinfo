@@ -22,6 +22,7 @@
 
 </head>
 <body>
+
 <div align="center">
 	{{-- On inclus le menu dans le layout de base --}}
 	@include('partials.menu')
@@ -50,7 +51,6 @@
 	<script src="/js/main.js"></script>
 	</div>
 	</div>
-    <div id="gameId"> </div>
 
 </body>
 </html>
