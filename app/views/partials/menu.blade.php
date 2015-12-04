@@ -20,8 +20,8 @@
         <li><a class="menu" href="{{{ URL::to( '/messages') }}}">Messages</a>
        @if(isset($user))
         @if($user->id)
-          <li><a class="menu" href="{{{ URL::to( '/Position') }}}">position</a>
-			<li><a class="menu" href="{{{ URL::to( '/Modere') }}}">position</a>
+          <li><a class="menu" href="{{{ URL::to( '/position') }}}">Position</a>
+			<li><a class="menu" href="{{{ URL::to( '/modere') }}}">Modéré</a>
         @endif
       @endif
       </ul>
