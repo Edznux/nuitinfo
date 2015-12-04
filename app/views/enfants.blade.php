@@ -12,8 +12,8 @@
 	<section id="main" class="main-section cleanbg">
 			<div class="container">
 				<h1>En cas d'urgence :</h1>
-				<img src="/public/image/guideSurvie.jpg" width="50%"/>
-				<img src="/image/tsunami.jpg" width="50%"/>
+				<img src="/public/image/guideSurvie.jpg" width="45%"/>
+				<img src="/image/tsunami.jpg" width="45%"/>
 				<img src="/image/gestesSurvie.jpg"/>
 				<img src="/image/defibri.jpg"/>
 				
