@@ -13,7 +13,7 @@
 	</p>
 	<h1>En cas d’inondation</h1>
 	
-	<h2>Avant la crue</h2>
+	<h3>Avant la crue</h3>
 	<h4>Si vous êtes à l’intérieur d’un bâtiment :</h4>
 	<ul>
 		<li>Fermez  portes,  fenêtres,  soupiraux  pour  ralentir  l’entrée  de  l’eau  et  limiter  les dégâts.</li>
@@ -34,7 +34,7 @@
 
 	</ul>
 	
-	<h2>Pendant la crue :</h2>
+	<h3>Pendant la crue :</h3>
 	<ul>
 		<li>Tenezvous informé de l’évolution de la crise en écoutant la radio.</li>
 		<li>N’évacuez qu’après en avoir reçu la consigne par les autorités en charge de votre sécurité.</li>
@@ -42,7 +42,7 @@
 		<li>Ne téléphonez pas, afin de laisser libres les lignes pour les secours.</li>
 	</ul>
 
-	<h2>Après la crue :</h2>
+	<h3>Après la crue :</h3>
 	<ul>
 		<li>Aérez les pièces dès que possible.</li>
 		<li>Contrôlez les installations électriques et de gaz avant de les rétablir.</li>
@@ -51,7 +51,7 @@
 	</ul>
 	
 	<h1>En cas de séisme</h1>
-	<h2>Pendant la secousse</h2>
+	<h3>Pendant la secousse</h3>
 	<h4>Si vous êtes à l’intérieur d’un bâtiment :</h4>
 
 	<ul>
@@ -71,7 +71,7 @@
 	</ul>
 	
 	
-	<h2>Dès le fin de la secousse :</h2>
+	<h3>Dès le fin de la secousse :</h3>
 -	<ul>
 		<li>Coupez le gaz, l’électricité et l’eau.</li>
 		<li>Ni flamme, ni étincelle pour éviter les risques d’explosion.</li>
@@ -86,14 +86,14 @@
 	</ul>
 
 	<h1>En cas de mouvement de terrain	</h1>
-	<h2>Pendant :</h2>
+	<h3>Pendant :</h3>
 	<ul>
 		<li>Fuyez latéralement.</li>
 		<li>Réfugiez-vous sur le point haut le plus proche.</li>
 		<li>Eloignez-vous de la zone dangereuse et ne revenez pas sur vos pas.</li>
 	</ul>
 	
-	<h2>Après</h2>
+	<h3>Après</h3>
 	<ul>
 		<li>N’entrez pas dans un bâtiment endommagé.</li>
 		<li>Informez les autorités</li>
