@@ -15,7 +15,6 @@
 				{{ Form::close() }}
 
 				{{ Form::open(array('url'=>'/moderer/{{{$message->id}}}'') }}		
-				{{ Form::open() }}
 							<td><input type="submit" name="supprimer" value="Supprimer"></td>
 				{{ Form::close() }}
 			</tr>
