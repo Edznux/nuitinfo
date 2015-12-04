@@ -11,9 +11,10 @@ a.menu{
 .imageEnfant
 {
 	height:7%;
-
-
-
+}
+.imageEnfant:hover
+{
+	height:20%;
 }
 
 #cadre{
