@@ -22,7 +22,7 @@
 				element.value = '';
 			}
 		</script>
-		<textarea name="message" rows="5" cols="100" onClick="clearContents(this);">Que ce passe-t-il en ce moment</textarea>
+		<textarea name="message" rows="5" cols="100" onClick="clearContents(this);">ke ce pastyl anse mome an !</textarea>
 		</br></br>
 		<input type="Submit" name="envoie" value="Envoyer">
 	{{ Form::close() }}
