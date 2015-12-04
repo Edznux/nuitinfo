@@ -6,7 +6,7 @@
 $(document).ready(
 		function()
 		{
-			$("#Inodation").click(
+			$("#Inondation").click(
 				function()
 				{
 					$("#Cadre_Inondation").slideToggle("slow");
