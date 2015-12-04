@@ -44,8 +44,9 @@ top  :10%;
 
 .map-actu
 {
-height:15% !important;
-	width:15% !important;	
+height:50% !important;
+	width:50% !important;
+margin-top: 5%;	
 }
 
 /* micro reset */

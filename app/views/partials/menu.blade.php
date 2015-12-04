@@ -17,9 +17,20 @@
         <li><a class="menu" href="{{{ URL::to( '/map') }}}">Map</a></li>
 		    <li><a class="menu" href="{{{ URL::to( '/rules') }}}">Règles</a></li>
        <!-- <li><a class="menu" href="{{{ URL::to( '/actu') }}}">Actus</a></li>-->
-		    <li><a class="menu" href="{{{ URL::to( '/messages') }}}">Messages</a>
+        <li><a class="menu" href="{{{ URL::to( '/messages') }}}">Messages</a>
+       @if($user)
+        @if($user->id)
+		      <li><a class="menu" href="{{{ URL::to( '/position') }}}">position</a>
+        @endif
+      @endif
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 <div class="imagehaut"></div>
+<!-- 
+<?php
+    echo var_dump(Session::all());
+    echo var_dump(Auth::check());
+ ?>
+-->

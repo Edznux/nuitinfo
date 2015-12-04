@@ -39,7 +39,7 @@ class AccountController extends AuthorizedController
 		// Declare the rules for the form validation.
 		//
 		$rules = array(
-			'email'      => 'Required|Email' ,
+			'email'      => 'Required' ,
 			'password' => 'Required'
 		);
 
@@ -58,12 +58,12 @@ class AccountController extends AuthorizedController
 
 			// Redirect to the register page.
 			//
-			return Redirect::to('/position')->with('success', 'Connecté !');
+			return Redirect::to('position')->with('success', 'Connecté !');
 		}
 
 		// Something went wrong.
 		//
-		return Redirect::to('/position')->withInput($inputs)->withErrors($validator->getMessageBag());
+		return Redirect::to('account/login')->withInput($inputs)->withErrors($validator->getMessageBag());
 	}
 
 	/**
@@ -78,7 +78,7 @@ class AccountController extends AuthorizedController
 		//
 		if (Auth::check())
 		{
-			return Redirect::to('/position')->with('user', Auth::user());
+			return Redirect::to('position')->with('user', Auth::user());
 		}
 
 		// Show the page.
@@ -93,47 +93,27 @@ class AccountController extends AuthorizedController
 	 * @return   Redirect
 	 */
 
-	public function postLPos()
+	public function postPos()
 	{
-		// Declare the rules for the form validation.
-		//
 		$rules = array(
-			'email'    => 'Required|Email',
-			'password' => 'Required'
-		);
+        	'ville' => 'required',
+        	'lat' => 'required|numeric',
+        	'long' => 'required|numeric'
+    	);
 
-		// Get all the inputs.
-		//
-		$email = Input::get('email');
-		$password = Input::get('password');
-
-		// Validate the inputs.
-		//
 		$validator = Validator::make(Input::all(), $rules);
 
-		// Check if the form validates with success.
-		//
-		if ($validator->passes())
-		{
-			// Try to log the user in.
-			//
-			if (Auth::attempt(array('email' => $email, 'password' => $password)))
-			{
-				// Redirect to the users page.
-				//
-				return Redirect::to('account')->with('success', 'You have logged in successfully');
-			}
-			else
-			{
-				// Redirect to the login page.
-				//
-				return Redirect::to('account/login')->with('error', 'Email/password invalid.');
-			}
+		if ($validator->fails()) {
+			return Redirect::to('position')
+            ->withErrors($validator);
 		}
-
-		// Something went wrong.
-		//
-		return Redirect::to('account/login')->withErrors($validator->getMessageBag());
+		else{
+			DB::table('position')->insert(
+   				array('ville' => Input::get('ville'), 'lng' => Input::get('long'), 'lat' => Input::get('lat'))
+			);
+			return Redirect::to('position')
+			->with('success',"Position ajoutée");
+		}	
 	}
 
 	/**
