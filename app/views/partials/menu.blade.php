@@ -27,9 +27,10 @@
       </ul>
 	   <ul class="nav navbar-nav navbar-right">
 		      <li><a class="menu" href="{{{ URL::to( '/login') }}}">Login</a>
-			  <li><a href="/enfants"><img src="/image/emo-peur.png" class="imageEnfant"/></a></li>
+			  
 		</ul>
     </div><!-- /.navbar-collapse -->
+	<a href="/enfants"><img src="/image/emo-peur.png" class="imageEnfant"/></a>
   </div><!-- /.container-fluid -->
 </nav>
 <div class="imagehaut"></div>
