@@ -18,6 +18,7 @@
 		    <li><a class="menu" href="{{{ URL::to( '/rules') }}}">Règles</a></li>
        <!-- <li><a class="menu" href="{{{ URL::to( '/actu') }}}">Actus</a></li>-->
         <li><a class="menu" href="{{{ URL::to( '/messages') }}}">Messages</a>
+		 <li class="hidden-lg hidden-md"><a href="/enfants"><img src="/image/emo-peur.png" class="imageEnfant"/></a></li>
        @if(isset($user))
         @if($user->id)
           <li><a class="menu" href="{{{ URL::to( '/position') }}}">Position</a>
@@ -27,7 +28,7 @@
        </ul>
 	   <ul class="nav navbar-nav navbar-right">
 		      <li><a class="menu" href="{{{ URL::to( '/login') }}}">Login</a>
-			  <li><a href="/enfants"><img src="/image/emo-peur.png" class="imageEnfant"/></a></li>
+			  <li class="hidden-xs hidden-sm"><a href="/enfants"><img src="/image/emo-peur.png" class="imageEnfant"/></a></li>
 		</ul>
 		
     </div><!-- /.navbar-collapse -->
