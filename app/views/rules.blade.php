@@ -3,12 +3,6 @@
 
 @section('content') 
 
-<<<<<<< HEAD
-=======
-
-<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="cadre">
->>>>>>> 289b58518693fd69c5e378ac4fffaede6086d68a
 	<div id="pageRules">
 	<title>Consignes de sécurité</title>
 	
@@ -18,10 +12,7 @@
 		manière synthétique les consignes de sécurité que vous devrez appliquer en cas de 
 		catastrophe naturelle.
 	</p>
-	<div id="Inondation" style="border:solid 1px #c3c3c3;	border-radius:5px;color: #444444;background-color:#DDDDDD;"><h1>En cas d’inondation</h1></div>
-
-		<div id="Cadre_Inondation" style="display:none;">
-			
+	<h1>Inondation :</h1>
 			<h3>Avant la crue :</h3>
 			<h4>Si vous êtes à l’intérieur d’un bâtiment :</h4>
 			<ul>
@@ -58,7 +49,7 @@
 				<li>Chauffez dès que possible.</li>
 				<li>Renseignez-vous auprès de la Mairie pour connaître les démarches à engager.</li>
 			</ul>
-		</div>
+	
 	
 	<h1>En cas de séisme</h1>
 	<h3>Pendant la secousse</h3>
@@ -227,10 +218,9 @@
 	<li id="InBold" >NE RACCROCHEZ JAMAIS EN PREMIER !</li>
 	</ol>
 	</div>
-	</div>
-	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+
 	
 	
 	
 @stop
-<script src="/public/js/api-rules.js"></script>
+
