@@ -2,6 +2,23 @@
 
 
 @section('content') 
+<script>
+$(document).ready(
+		function()
+		{
+			$("#Inodation").click(
+				function()
+				{
+					$("#Cadre_Inondation").slideToggle("slow");
+				}
+			);
+		
+		}
+	);
+	
+</script>
+
+
 	<div id="pageRules">
 	<title>Consignes de sécurité</title>
 	
@@ -11,45 +28,47 @@
 		manière synthétique les consignes de sécurité que vous devrez appliquer en cas de 
 		catastrophe naturelle.
 	</p>
-	<h1>En cas d’inondation</h1>
-	
-	<h3>Avant la crue :</h3>
-	<h4>Si vous êtes à l’intérieur d’un bâtiment :</h4>
-	<ul>
-		<li>Fermez  portes,  fenêtres,  soupiraux  pour  ralentir  l’entrée  de  l’eau  et  limiter  les dégâts.</li>
-		<li>Coupez l’électricité et le gaz pour éviter l’électrocution et l’explosion.</li>
-		<li>Mettez  les  produits  polluant  hors  d’atteinte  de  la  crue  afin  d’éviter  le  risque  de pollution de l’eau.</li>
-		<li>Si vous en avez le temps, mettez votre véhicule à l’abri de la crue, il risque d’être 
-		emporté et de causer des dégâts.</li>
-		<li>Montez à  pied  dans  les  étages  avec  eau  potable,  vivres,  vêtements  chauds  et 
-		médicaments nécessaires.</li>
-	</ul>
+	<div id="Inondation"><h1>En cas d’inondation</h1></div>
+		<div id="Cadre_Inondation" style="border:hidden; border-radius:hidden;width:30px;height:15px;
+					padding:hidden; background-color:#7f7f7f">
+			
+			<h3>Avant la crue :</h3>
+			<h4>Si vous êtes à l’intérieur d’un bâtiment :</h4>
+			<ul>
+				<li>Fermez  portes,  fenêtres,  soupiraux  pour  ralentir  l’entrée  de  l’eau  et  limiter  les dégâts.</li>
+				<li>Coupez l’électricité et le gaz pour éviter l’électrocution et l’explosion.</li>
+				<li>Mettez  les  produits  polluant  hors  d’atteinte  de  la  crue  afin  d’éviter  le  risque  de pollution de l’eau.</li>
+				<li>Si vous en avez le temps, mettez votre véhicule à l’abri de la crue, il risque d’être 
+				emporté et de causer des dégâts.</li>
+				<li>Montez à  pied  dans  les  étages  avec  eau  potable,  vivres,  vêtements  chauds  et 
+				médicaments nécessaires.</li>
+			</ul>
 
 
-	
-	<h4>Si vous êtes à l’extérieur :</h4>
-	<ul>
-		<li>Sortez  de  votre  véhicule,  il  risque  d’être  emporté  beaucoup  plus  facilement que vous.</li>
-		<li>Eloignez vous de la zone dangereuse et réfugiez vous sur un point haut.</li>
+			
+			<h4>Si vous êtes à l’extérieur :</h4>
+			<ul>
+				<li>Sortez  de  votre  véhicule,  il  risque  d’être  emporté  beaucoup  plus  facilement que vous.</li>
+				<li>Eloignez vous de la zone dangereuse et réfugiez vous sur un point haut.</li>
 
-	</ul>
-	
-	<h3>Pendant la crue :</h3>
-	<ul>
-		<li>Tenezvous informé de l’évolution de la crise en écoutant la radio.</li>
-		<li>N’évacuez qu’après en avoir reçu la consigne par les autorités en charge de votre sécurité.</li>
-		<li>N’allez pas chercher vos enfants à l’école, leurs enseignants s’occupent d’eux.</li>
-		<li>Ne téléphonez pas, afin de laisser libres les lignes pour les secours.</li>
-	</ul>
+			</ul>
+			
+			<h3>Pendant la crue :</h3>
+			<ul>
+				<li>Tenezvous informé de l’évolution de la crise en écoutant la radio.</li>
+				<li>N’évacuez qu’après en avoir reçu la consigne par les autorités en charge de votre sécurité.</li>
+				<li>N’allez pas chercher vos enfants à l’école, leurs enseignants s’occupent d’eux.</li>
+				<li>Ne téléphonez pas, afin de laisser libres les lignes pour les secours.</li>
+			</ul>
 
-	<h3>Après la crue :</h3>
-	<ul>
-		<li>Aérez les pièces dès que possible.</li>
-		<li>Contrôlez les installations électriques et de gaz avant de les rétablir.</li>
-		<li>Chauffez dès que possible.</li>
-		<li>Renseignez-vous auprès de la Mairie pour connaître les démarches à engager.</li>
-	</ul>
-	
+			<h3>Après la crue :</h3>
+			<ul>
+				<li>Aérez les pièces dès que possible.</li>
+				<li>Contrôlez les installations électriques et de gaz avant de les rétablir.</li>
+				<li>Chauffez dès que possible.</li>
+				<li>Renseignez-vous auprès de la Mairie pour connaître les démarches à engager.</li>
+			</ul>
+		</div>
 	<h1>En cas de séisme</h1>
 	<h3>Pendant la secousse</h3>
 	<h4>Si vous êtes à l’intérieur d’un bâtiment :</h4>
