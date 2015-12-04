@@ -138,6 +138,82 @@
 	Une "photo" rapide permet de repérer le moyen de couper le courant (en débranchant la prise tout simplement ou en utilisant un disjoncteur si la prise est douteuse ou inaccessible).
 	</p>
 	
+	<p>Imaginons un scénario catastrophe : Robert prend un "coup de jus" dans son garage en branchant sa perceuse. 
+	Il s'écroule sur le sol et reste sans réaction. Richard se précipite sur lui pour l'aider. 
+	Au contact du corps sous tension Richard qui est très âgé s'écroule sur Robert. 
+	Patricia voyant la scène décide de les sauver et se jette à leur chevet. 
+	Elle oublie qu'elle a le cœur fragile et prend à son tour une "châtaigne". 
+	C'est l'arrêt cardiaque immédiat. Arrive alors Gaston qui etc. etc. etc.
+	</p>
+	
+	<p>
+	Dans certains cas cependant, le risque peut cependant être persistant. 
+	Il s'agit d'un danger que l'on ne peut pas supprimer (incendie, victime allongée au milieu d'une route d'où peut surgir un véhicule, victime intoxiquée dans un lieu confiné etc. )
+	</p>
+	
+	<p>
+	Dans ce cas et dans ce cas seulement vous devrez alors soustraire la victime au danger en la dégageant. 
+	Ça ne se fait pas n'importe comment, il y a des techniques simples pour dégager les victimes sans trop les casser mais il faut s'entraîner et là, rien ne remplace la formation pratique : le PSC1.
+	</p>
+	
+	<li>Secourir :</li>
+	<p>
+		Une fois le danger écarté vous devez pratiquer "les gestes qui sauvent" et pour reprendre le slogan de la Croix-Rouge française, "sauver une vie, ça s'apprend !" En attendant, respectez ces quelques règles :
+	</p>	
+		
+	<p>
+		Si la personne saigne fortement, appuyez avec la paume de votre main sur la plaie pour stopper le saignement (sauf s'il y a quelque chose dans la plaie bien entendu) et faites (alerter) les secours (une règle à retenir pour les hémorragies, la règle de trois JA : j'appuie, j'allonge, j'alerte).
+	</p>	
+		
+	<p>
+		Si la personne est en train de s'étouffer, il faut lui taper dans le dos de façon énergique (à ne pas confondre avec brutalement mais seule une formation peut vous montrer la nuance...) à 5 reprises si nécessaire. En cas d'échec il convient de pratiquer la manœuvre d'Heimlich (à apprendre en formation).	
+	</p>	
+		
+	<p>
+		Si la victime ne répond pas, vérifier si elle respire. Si elle respire mettez-la sur le coté, bouche ouverte en direction du sol (ne la giflez surtout pas pour la réveiller, c'est inutile, dangereux et totalement interdit). Puis allez vite passer l'alerte (alerter).
+	</p>	
+	
+	
+	<p>
+		Si elle ne respire pas, faîtes passer l'alerte par un témoin calme, puis pratiquez le massage cardiaque associé à du bouche à bouche. Il s'agit d'alterner le bouche à bouche et et des compressions. Cette technique ne sert pas à faire "repartir" le cœur mais à faire circuler le sang de façon artificielle. Tant que vous continuez, la victime a une chance de survivre.
+	</p>	
+	
+	<p>
+		Pour pratique correctement le bouche à bouche, il faut boucher le nez de la victime en lui pinçant les narines et plaquer sa bouche bien hermétiquement autour de la sienne. Si cela est impossible, pratiquez uniquement le massage cardiaque en appuyant sur la poitrine de la victime.
+	</p>	
+	
+	<p>
+		Si un massage cardiaque associé à du bouche à bouche est réalisé dans les deux minutes, le cerveau sera correctement oxygéné et les chances de survie de la victime seront multipliées par dix. Si rien n'est fait, lorsque les secours arrivent, (au bout de six ou sept minutes dans le meilleur des cas), le cerveau de la victime est quasiment toujours très détérioré voir irrécupérable. Envie d'apprendre à pratiquer le massage cardiaque ?
+	</p>
+	
+	<li>Alerter :</li>
+	<p>Si vous devez ne faire qu'un seul geste il faut que ce soit celui-là ! En France les secours sont bien organisés et relativement rapides mais sans alerte, pas de secours !</p>
+	
+	
+	<ul>
+		<li>15  18  112</li>
+
+		<li>Le 15 : le SAMU (Service d'aide médiale urgente)</li>
+
+		<li>Le 18 : les sapeurs pompiers</li>
+
+		<li>Le 112 : numéro d'appel européen</li>
+			<p>(réservé aux habitants de l'Union Européenne quand ils ne se trouvent pas dans leur pays).</p>
+	
+	</ul>
+	
+	<li>Que dire ?</li>
+	<ul>
+		<li>Décrivez rapidement la situation. Expliquez la NATURE de l'accident (afin qu'on vous envoie des secours ADAPTÉS)</li>
+		<li>Donnez le nombre de victimes (1 victime = 1 camion, 20 victimes = 1 plan rouge ! )</li>	
+		<li>Donnez l'état apparent de la victime</li>
+		<li>Précisez si vous avez fait quelque chose et si vous avez besoin de la police)</li>
+		<li>
+			Si les secours vous demandent votre adresse, c'est généralement parce qu'ils décident de vous envoyer les secours. L'idéal étant qu'ils puissent vous trouver du premier coup...
+			Donnez très précisément votre adresse (ne confondez pas rue et avenue par exemple, n'oubliez pas de préciser le numéro et la VILLE. Donnez toutes les indications utiles telles que l'étage ou le numéro de bâtiment, n'oubliez pas LES DIGICODES ! ou les noms sur les interphones). Dans l'idéal, envoyez un témoin les attendre sur le trottoir pour les guider
+		</li>
+	</ul>
+	<li>NE RACCROCHEZ JAMAIS EN PREMIER !</li>
 	</ol>
 	</div>
 	
