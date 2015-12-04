@@ -30,7 +30,6 @@
 
 	<h1>Projet nuit info 2015</h1>
 	@yield('content')
-        <div id="gameId" style="visibility:hidden"> </div>
 
 	<!--{{}}-->
 	<hr>
