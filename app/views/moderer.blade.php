@@ -8,17 +8,15 @@
 
 	@foreach($messages as $message)
 		<table>
+			{{ Form::open(array('url'=>"/moderer/$message->id") )}}		
 			<tr> 
 				<td>{{{$message->message}}} </td>
 				<td>{{{$message->active}}} </td>
-				{{ Form::open(array('url'=>"/moderer/$message->id") )}}		
-							<td><input type="submit" name="modifier" value="Modifier"></td>
-				{{ Form::close() }}
-
-				{{ Form::open(array('url'=>"/moderer/$message->id") )}}		
-							<td><input type="submit" name="supprimer" value="Supprimer"></td>
-				{{ Form::close() }}
+				<td><input type="submit" name="modifier" value="Modifier"></td>	
+				<td><input type="submit" name="supprimer" value="Supprimer"></td>
+				
 			</tr>
+			{{ Form::close() }}
 		</table>
 	@endforeach
 @stop
