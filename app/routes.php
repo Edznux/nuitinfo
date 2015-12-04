@@ -19,6 +19,10 @@
  Route::post('/map','HomeController@showMap');
  Route::get('/rules','HomeController@showRules');
  Route::get('/enfants','HomeController@showEnfants');
+ Route::get('/login','AccountController@getIndex');
+ Route::post('/login','AccountController@postIndex');
+ Route::get('/position','AccountController@getPos');
+ Route::post('/position','AccountController@postPos');
 
 //Route::controller('account','AccountController');
 Route::get('/', 'HomeController@showActu');

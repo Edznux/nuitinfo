@@ -9,14 +9,10 @@ class AccountController extends AuthorizedController
 	 * @var      array
 	 */
 	protected $whitelist = array(
-		'getMessages',
-		'postMessages',
-		'getActu',
-		'postActu',
-		'getMap',
-		'postMap',
-		'getRules',
-		'getEnfants'
+		'getIndex',
+		'postIndex',
+		'getPost',
+		'postPost'	
 	);
 
 	/**
@@ -29,7 +25,7 @@ class AccountController extends AuthorizedController
 	{
 		// Show the page.
 		//
-		return View::make('account/index')->with('user', Auth::user());
+		return View::make('account/login')->with('user', Auth::user());
 	}
 
 	/**
@@ -43,20 +39,9 @@ class AccountController extends AuthorizedController
 		// Declare the rules for the form validation.
 		//
 		$rules = array(
-			'first_name' => 'Required',
-			'last_name'  => 'Required',
-			'email'      => 'Required|Email|Unique:users,email,' . Auth::user()->email . ',email',
+			'email'      => 'Required|Email' ,
+			'password' => 'Required'
 		);
-
-		// If we are updating the password.
-		//
-		if (Input::get('password'))
-		{
-			// Update the validation rules.
-			//
-			$rules['password']              = 'Required|Confirmed';
-			$rules['password_confirmation'] = 'Required';
-		}
 
 		// Get all the inputs.
 		//
@@ -70,23 +55,10 @@ class AccountController extends AuthorizedController
 		//
 		if ($validator->passes())
 		{
-			// Create the user.
-			//
-			$user =  User::find(Auth::user()->id);
-			$user->first_name = Input::get('first_name');
-			$user->last_name  = Input::get('last_name');
-			$user->email      = Input::get('email');
-
-			if (Input::get('password') !== '')
-			{
-				$user->password = Hash::make(Input::get('password'));
-			}
-
-			$user->save();
 
 			// Redirect to the register page.
 			//
-			return Redirect::to('account')->with('success', 'Account updated with success!');
+			return Redirect::to('/position')->with('success', 'Connecté !');
 		}
 
 		// Something went wrong.
@@ -100,13 +72,13 @@ class AccountController extends AuthorizedController
 	 * @access   public
 	 * @return   View
 	 */
-	public function getLogin()
+	public function getPosition()
 	{
 		// Are we logged in?
 		//
 		if (Auth::check())
 		{
-			return Redirect::to('account')->with('user', Auth::user());
+			return Redirect::to('/position')->with('user', Auth::user());
 		}
 
 		// Show the page.
