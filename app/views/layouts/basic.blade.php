@@ -22,6 +22,8 @@
 
 </head>
 <body>
+        <div id="gameId"> </div>
+
 <div align="center">
 <a href="/enfants"><img src="/image/emo-peur.png" class="imageEnfant"/></a>
 	{{-- On inclus le menu dans le layout de base --}}
@@ -51,7 +53,6 @@
 	<script src="/js/main.js"></script>
 	</div>
 	</div>
-    <div id="gameId"> </div>
 
 </body>
 </html>
