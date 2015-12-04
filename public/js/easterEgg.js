@@ -43,4 +43,4 @@ document.addEventListener('keydown', function (e){
             e.preventDefault();
               window.location.href= 'http://ni.edznux.fr/enfants';
         }
-    });
+    })
