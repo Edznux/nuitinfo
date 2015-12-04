@@ -8,12 +8,13 @@ a.menu{
 	font-size: 18px;
 }
 
-.imageEnfant:hover
+.imageEnfant
 {
 	height:7%;
-
-
-
+}
+.imageEnfant:hover
+{
+	height:12%;
 }
 
 #cadre{
