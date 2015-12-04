@@ -24,7 +24,7 @@
 			function clearContents(element) {
 				element.value = '';
 			}
-		</script>vdgefgd
+		</script>
 		<textarea name="message" class="col-lg-8 col-md-8 col-sm-8 col-xs-8" placeholder="Que se passe-t-il en ce moment ?"></textarea>
 		</br></br>
 		<input type="Submit" name="envoie" value="Envoyer">
