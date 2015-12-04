@@ -72,7 +72,7 @@
 	
 	
 	<h3>Dès le fin de la secousse :</h3>
--	<ul>
+	<ul>
 		<li>Coupez le gaz, l’électricité et l’eau.</li>
 		<li>Ni flamme, ni étincelle pour éviter les risques d’explosion.</li>
 		<li>Evacuez  immédiatement  le  bâtiment  (il  peut  y  avoir  d’autres  secousses)  en 
