@@ -13,6 +13,7 @@
 	
 	<link rel="stylesheet" href="/css/main.css">
 <!--	<link rel="stylesheet" href="/css/test.css">-->
+    <script type="text/javascript" src="/js/accesskey.js"></script>
 
 
 </head>
