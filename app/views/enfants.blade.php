@@ -10,8 +10,8 @@
 	</section>
 
 	<section id="main" class="main-section cleanbg">
-			<div class="container">
-				<h1>En cas d'urgence :</h1>
+			<div class="container text-justify">
+			
 				
 				<h3>TERRORISME ET ATTENTAT</h3>
 <p>
