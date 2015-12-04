@@ -186,7 +186,7 @@
 		Si un massage cardiaque associé à du bouche à bouche est réalisé dans les deux minutes, le cerveau sera correctement oxygéné et les chances de survie de la victime seront multipliées par dix. Si rien n'est fait, lorsque les secours arrivent, (au bout de six ou sept minutes dans le meilleur des cas), le cerveau de la victime est quasiment toujours très détérioré voir irrécupérable. Envie d'apprendre à pratiquer le massage cardiaque ?
 	</p>
 	
-	<li>Alerter :</li>
+	<li id="InBold" >Alerter :</li>
 	<p>Si vous devez ne faire qu'un seul geste il faut que ce soit celui-là ! En France les secours sont bien organisés et relativement rapides mais sans alerte, pas de secours !</p>
 	
 	
@@ -202,7 +202,7 @@
 	
 	</ul>
 	
-	<li>Que dire ?</li>
+	<li id="InBold">Que dire ?</li>
 	<ul>
 		<li>Décrivez rapidement la situation. Expliquez la NATURE de l'accident (afin qu'on vous envoie des secours ADAPTÉS)</li>
 		<li>Donnez le nombre de victimes (1 victime = 1 camion, 20 victimes = 1 plan rouge ! )</li>	
