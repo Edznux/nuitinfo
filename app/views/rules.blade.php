@@ -9,7 +9,7 @@
 	<p>
 		Le  document  que  vous  avez  sous  les  yeux  a  pour  objectif  de  vous  donner  de 
 		manière synthétique les consignes de sécurité que vous devrez appliquer en cas de 
-		atastrophe naturelle.
+		catastrophe naturelle.
 	</p>
 	<h1>En cas d’inondation</h1>
 	
