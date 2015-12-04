@@ -33,6 +33,16 @@ fjs.parentNode.insertBefore(js,fjs);
 	<div id="map" class="map-actu"></div>
 </div>
 <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+<div class="messages">
+	@if(Session::has('messages'))
+		@foreach($messages as $mes)
+			@if($mes->active == 0)
+				{{{$mes->message}}}
+				</br>
+			@endif
+		@endforeach
+	@endif
+</div>
 
 
 

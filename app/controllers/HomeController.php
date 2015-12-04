@@ -55,7 +55,8 @@ class HomeController extends BaseController {
 	public function showActu()
 	{
 		return View::make('actu')
-					->with('position', Position::all());
+					->with('position', Position::all())
+					->with('messages', Message::all());
 	}
 
 	public function showMap()
