@@ -65,12 +65,12 @@ function update() {
     if(vieP1 <= 0)
     {
         cleanAll();
-        winnerText = game.add.text(80,170,"JOUEUR 1 EST LE VAINQUEUR",style);
+        winnerText = game.add.text(80,170,"JOUEUR 2 EST LE VAINQUEUR",style);
     }
     if(vieP2 <= 0)
     {
         cleanAll();
-        winnerText = game.add.text(80,170,"JOUEUR 2 EST LE VAINQUEUR",style);
+        winnerText = game.add.text(80,170,"JOUEUR 1 EST LE VAINQUEUR",style);
     }
     if(vieP1 <= 0 || vieP2 <= 0)
     {
