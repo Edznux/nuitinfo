@@ -18,7 +18,7 @@
 		    <li><a class="menu" href="{{{ URL::to( '/rules') }}}">Règles</a></li>
        <!-- <li><a class="menu" href="{{{ URL::to( '/actu') }}}">Actus</a></li>-->
         <li><a class="menu" href="{{{ URL::to( '/messages') }}}">Messages</a>
-       @if($user->id)
+       @if($user && $user->id)
 		      <li><a class="menu" href="{{{ URL::to( '/position') }}}">position</a>
         @endif
       </ul>
