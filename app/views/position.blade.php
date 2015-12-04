@@ -10,13 +10,13 @@
 	{{ Form::open() }}
 		Nom ville :
 		<input name="ville">
-		</br>
+		</br></br>
 		Latitude :
 		<input name="lat">
-		</br>
+		</br></br>
 		Longitude :
 		<input name="long">
-		</br>
+		</br></br>
 		<input type="Submit" name="envoie" value="Envoyer">
 	{{ Form::close() }}
 @stop
