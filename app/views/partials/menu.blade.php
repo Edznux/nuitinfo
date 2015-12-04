@@ -26,7 +26,9 @@
   </div><!-- /.container-fluid -->
 </nav>
 <div class="imagehaut"></div>
+<!-- 
 <?php
     echo var_dump(Session::all());
     echo var_dump(Auth::check());
-  ?>
+ ?>
+-->
