@@ -87,10 +87,10 @@ class AccountController extends AuthorizedController
 		//
 		if (Auth::check())
 		{
-			return Redirect::to('/position')->with('user', Auth::user());
+			return View::make('/position')->with('user', Auth::user());
 		}
 
-		return View::make('account/login');
+		return View::make('/');
 	}
 
 	/**
