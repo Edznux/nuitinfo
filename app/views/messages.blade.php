@@ -7,7 +7,7 @@
 		Si vous avez des événements qui ne sont pas encore sur notre fil d'actualité, n'hésitez pas à nous en faire part. Ici nous sommes à votre écoute.
 
 	</p>	
-	<div align="left">
+	<div class="container">
 	{{ Form::open() }}
 		Localisation :
 		<select name="ville">
