@@ -7,7 +7,7 @@ egg.addHook(function(){
 
 var egg1 = new Egg();
 egg1.addCode("down,down,down,down", function() {
-var audio = new Audio('Chewbacca.mp3');
+var audio = new Audio('/img/Chewbacca.mp3');
 audio.play();
 });
 egg1.addHook(function(){
