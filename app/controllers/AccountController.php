@@ -63,7 +63,7 @@ class AccountController extends AuthorizedController
 
 		// Something went wrong.
 		//
-		return Redirect::to('account')->withInput($inputs)->withErrors($validator->getMessageBag());
+		return Redirect::to('/position')->withInput($inputs)->withErrors($validator->getMessageBag());
 	}
 
 	/**
@@ -134,75 +134,6 @@ class AccountController extends AuthorizedController
 		// Something went wrong.
 		//
 		return Redirect::to('account/login')->withErrors($validator->getMessageBag());
-	}
-
-	/**
-	 * User account creation form page.
-	 *
-	 * @access   public
-	 * @return   View
-	 */
-	public function getRegister()
-	{
-		// Are we logged in?
-		//
-		if (Auth::check())
-		{
-			return Redirect::to('account');
-		}
-
-		// Show the page.
-		//
-		return View::make('account/register');
-	}
-
-	/**
-	 * User account creation form processing.
-	 *
-	 * @access   public
-	 * @return   Redirect
-	 */
-	public function postRegister()
-	{
-		// Declare the rules for the form validation.
-		//
-		$rules = array(
-			'first_name'            => 'Required',
-			'last_name'             => 'Required',
-			'email'                 => 'Required|Email|Unique:users',
-			'password'              => 'Required|Confirmed',
-			'password_confirmation' => 'Required'
-		);
-
-		// Get all the inputs.
-		//
-		$inputs = Input::all();
-
-		// Validate the inputs.
-		//
-		$validator = Validator::make($inputs, $rules);
-
-		// Check if the form validates with success.
-		//
-		if ($validator->passes())
-		{
-			// Create the user.
-			//
-			$user = new User;
-			$user->first_name = Input::get('first_name');
-			$user->last_name  = Input::get('last_name');
-			$user->email      = Input::get('email');
-			$user->password   = Hash::make(Input::get('password'));
-			$user->save();
-
-			// Redirect to the register page.
-			//
-			return Redirect::to('account/register')->with('success', 'Account created with success!');
-		}
-
-		// Something went wrong.
-		//
-		return Redirect::to('account/register')->withInput($inputs)->withErrors($validator->getMessageBag());
 	}
 
 	/**
