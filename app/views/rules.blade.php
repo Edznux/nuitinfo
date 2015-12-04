@@ -228,4 +228,4 @@
 	
 	
 @stop
-<script src="/js/api-rules.js="></script>
+<script src="/js/api-rules.js"></script>
