@@ -41,3 +41,5 @@
 		<a href="chemin vers la page adulte"><img src="chemin de l'icone adulte" alt="icone de secours"/>
 	</figure>
 	</div>
+	
+	@stop
