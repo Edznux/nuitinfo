@@ -19,10 +19,16 @@
        <!-- <li><a class="menu" href="{{{ URL::to( '/actu') }}}">Actus</a></li>-->
         <li><a class="menu" href="{{{ URL::to( '/messages') }}}">Messages</a>
        @if(Auth::check())
-		      <li><a class="menu" href="{{{ URL::to( '/position') }}}">Messages</a>
+		      <li><a class="menu" href="{{{ URL::to( '/position') }}}">position</a>
         @endif
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 <div class="imagehaut"></div>
+<!-- 
+<?php
+    echo var_dump(Session::all());
+    echo var_dump(Auth::check());
+ ?>
+-->
