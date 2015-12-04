@@ -1,3 +1,7 @@
+@extends('layouts.basic')
+
+
+@section('content')
 <div class="bodyKid">
 <section id="section" class="main-section first-section">
 			<div class="container">
@@ -37,3 +41,5 @@
 		<a href="chemin vers la page adulte"><img src="chemin de l'icone adulte" alt="icone de secours"/>
 	</figure>
 	</div>
+	
+	@stop
