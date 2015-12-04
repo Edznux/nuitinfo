@@ -3,6 +3,12 @@
 
 @section('content') 
 
+<<<<<<< HEAD
+=======
+
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="cadre">
+>>>>>>> 289b58518693fd69c5e378ac4fffaede6086d68a
 	<div id="pageRules">
 	<title>Consignes de sécurité</title>
 	
