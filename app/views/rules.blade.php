@@ -213,7 +213,6 @@
 			Donnez très précisément votre adresse (ne confondez pas rue et avenue par exemple, n'oubliez pas de préciser le numéro et la VILLE. Donnez toutes les indications utiles telles que l'étage ou le numéro de bâtiment, n'oubliez pas LES DIGICODES ! ou les noms sur les interphones). Dans l'idéal, envoyez un témoin les attendre sur le trottoir pour les guider
 		</li>
 	</ul>
-	</p>
 	</br>
 	<li id="InBold" >NE RACCROCHEZ JAMAIS EN PREMIER !</li>
 	</ol>
