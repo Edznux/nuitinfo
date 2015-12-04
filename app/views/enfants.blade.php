@@ -5,7 +5,7 @@
 <div class="bodyKid">
 <section id="section" class="main-section first-section">
 			<div class="container">
-				<p class="bigtxt txtcenter">Parce qu'une crise est en cours, rester informé est vital</p>
+				<p class="bigtxt txtcenter">Comprendre les grandes catastrophes de la Terre</p>
 			</div>
 	</section>
 
