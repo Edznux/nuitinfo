@@ -93,7 +93,7 @@ class AccountController extends AuthorizedController
 	 * @return   Redirect
 	 */
 
-	public function postLPos()
+	public function postPos()
 	{
 		$rules = array(
         	'ville' => 'required',
