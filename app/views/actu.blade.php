@@ -18,7 +18,10 @@ fjs.parentNode.insertBefore(js,fjs);
 }}(document,"script","twitter-wjs");
 </script>
 </div>
-<div id="maps"></div>
+<script>
+	var position = {{ $position }}
+	</script>
+	<div id="map"></div>
 
 
 @stop
