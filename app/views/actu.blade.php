@@ -28,7 +28,7 @@ fjs.parentNode.insertBefore(js,fjs);
 <script>
 	var position = {{ $position }}
 	</script>
-	<div id="map-actu"></div>
+	<div id="map" class="map-actu"></div>
 
 <div id="gameId"> </div>
 
