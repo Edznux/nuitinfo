@@ -12,10 +12,10 @@
 	<section id="main" class="main-section cleanbg">
 			<div class="container">
 				<h1>En cas d'urgence :</h1>
-				<img src="/image/guideSurvie.png"/>
-				<img src="/image/tsunami.png"/>
-				<img src="/image/gestesSurvie.png"/>
-				<img src="/image/defibri.png"/>
+				<img src="./../image/guideSurvie.png"/>
+				<img src="./image/tsunami.png"/>
+				<img src="./image/gestesSurvie.png"/>
+				<img src="./image/defibri.png"/>
 				
 
 			</div>
