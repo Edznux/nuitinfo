@@ -10,14 +10,13 @@
 		<table>
 			<tr> 
 				<td>{{{$message->message}}} </td>
-				<form action="/moderer/{{{$message->id}}}" method="post">
-			
+				{{ Form::open(array('url'=>'/moderer/{{{$message->id}}}'') )}}		
 							<td><input type="submit" name="modifier" value="Modifier"></td>
-				</form>
-				<form action="/moderer/{{{$message->id}}}" method="post">
-							<td><input type="submit" name="supprimer" value="Supprimer"></td>
+				{{ Form::close() }}
 
-				</form>
+				{{ Form::open(array('url'=>'/moderer/{{{$message->id}}}'') )}}		
+							<td><input type="submit" name="supprimer" value="Supprimer"></td>
+				{{ Form::close() }}
 			</tr>
 		</table>
 	@endforeach
