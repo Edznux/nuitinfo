@@ -72,7 +72,7 @@ class AccountController extends AuthorizedController
 	 * @access   public
 	 * @return   View
 	 */
-	public function getPosition()
+	public function getPos()
 	{
 		// Are we logged in?
 		//
@@ -92,7 +92,8 @@ class AccountController extends AuthorizedController
 	 * @access   public
 	 * @return   Redirect
 	 */
-	public function postLogin()
+
+	public function postLPos()
 	{
 		// Declare the rules for the form validation.
 		//
