@@ -18,9 +18,11 @@
 		    <li><a class="menu" href="{{{ URL::to( '/rules') }}}">Règles</a></li>
        <!-- <li><a class="menu" href="{{{ URL::to( '/actu') }}}">Actus</a></li>-->
         <li><a class="menu" href="{{{ URL::to( '/messages') }}}">Messages</a>
-       @if($user && $user->id)
+       @if($user)
+        @if($user->id)
 		      <li><a class="menu" href="{{{ URL::to( '/position') }}}">position</a>
         @endif
+      @endif
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
