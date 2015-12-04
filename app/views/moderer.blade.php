@@ -10,10 +10,10 @@
 		{{ Form::open(array('url'=>"/moderer/$message->id") )}}
 			<table width="50%" border=1>
 				<tr> 
-					<td width="40%">{{{$message->message}}} </td>
-					<td width="20%">{{{$message->active ? "activé" : "desactivé" }}} </td>
-					<td width="20%"><input type="submit" name="modifier" value="Modifier"></td>	
-					<td width="20%"><input type="submit" name="supprimer" value="Supprimer"></td>
+					<td width="40%" height=10%>{{{$message->message}}} </td>
+					<td width="20%" height=10%>{{{$message->active ? "activé" : "desactivé" }}} </td>
+					<td width="20%" height=10%><input type="submit" name="modifier" value="Modifier"></td>	
+					<td width="20%" height=10%><input type="submit" name="supprimer" value="Supprimer"></td>
 					
 				</tr>
 			</table>	
