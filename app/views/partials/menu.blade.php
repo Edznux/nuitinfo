@@ -24,6 +24,7 @@
         @endif
       @endif
 		      <li><a class="menu" href="{{{ URL::to( '/login') }}}">login</a>
+			  <li><a href="/enfants"><img src="/image/emo-peur.png" class="imageEnfant"/></a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

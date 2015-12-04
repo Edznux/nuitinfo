@@ -24,7 +24,6 @@
 <body>
 
 <div align="center">
-<a href="/enfants"><img src="/image/emo-peur.png" class="imageEnfant"/></a>
 	{{-- On inclus le menu dans le layout de base --}}
 	@include('partials.menu')
 
