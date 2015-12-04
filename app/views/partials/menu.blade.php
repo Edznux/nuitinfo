@@ -21,7 +21,7 @@
        @if(isset($user))
         @if($user->id)
           <li><a class="menu" href="{{{ URL::to( '/position') }}}">Position</a>
-			<li><a class="menu" href="{{{ URL::to( '/modere') }}}">Modéré</a>
+			<li><a class="menu" href="{{{ URL::to( '/moderer') }}}">Modérer</a>
         @endif
       @endif
       </ul>
