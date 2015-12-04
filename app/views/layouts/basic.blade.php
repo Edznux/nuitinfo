@@ -22,7 +22,6 @@
 
 </head>
 <body>
-        <div id="gameId"> </div>
 
 <div align="center">
 <a href="/enfants"><img src="/image/emo-peur.png" class="imageEnfant"/></a>
@@ -31,6 +30,7 @@
 
 	<h1>Projet nuit info 2015</h1>
 	@yield('content')
+        <div id="gameId"> </div>
 
 	<!--{{}}-->
 	<hr>
