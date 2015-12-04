@@ -15,9 +15,9 @@
 		manière synthétique les consignes de sécurité que vous devrez appliquer en cas de 
 		catastrophe naturelle.
 	</p>
+	<div id="Inondation" style="border:solid 1px #c3c3c3;	border-radius:5px;color: #444444;background-color:#DDDDDD;"><h1>En cas d’inondation</h1></div>
 
-	<h1>En cas d’inondation</h1>
-	
+		<div id="Cadre_Inondation" style="display:none;">
 			
 			<h3>Avant la crue :</h3>
 			<h4>Si vous êtes à l’intérieur d’un bâtiment :</h4>
@@ -55,7 +55,7 @@
 				<li>Chauffez dès que possible.</li>
 				<li>Renseignez-vous auprès de la Mairie pour connaître les démarches à engager.</li>
 			</ul>
-	
+		</div>
 	
 	<h1>En cas de séisme</h1>
 	<h3>Pendant la secousse</h3>
@@ -230,4 +230,4 @@
 	
 	
 @stop
-
+<script src="/public/js/api-rules.js"></script>
