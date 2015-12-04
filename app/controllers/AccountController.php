@@ -60,7 +60,7 @@ class AccountController extends AuthorizedController
 			{
 				// Redirect to the users page.
 				//
-				return Redirect::to('position')->with('success', 'You have logged in successfully');
+				return Redirect::to('/position')->with('success', 'You have logged in successfully');
 			}
 			else
 			{
@@ -87,11 +87,9 @@ class AccountController extends AuthorizedController
 		//
 		if (Auth::check())
 		{
-			return Redirect::to('position')->with('user', Auth::user());
+			return Redirect::to('/position')->with('user', Auth::user());
 		}
 
-		// Show the page.
-		//
 		return View::make('account/login');
 	}
 
