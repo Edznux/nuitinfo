@@ -15,12 +15,13 @@ var titre;
 var winnerText;
 
 // Variable P1
-var vieP1 = 100;
-var attaqueP1 = 5;
+var vieP1 = 1000;
+var attaqueP1Sabre = 5;
+var attaqueP1Force = 30;
 
 // Variable P2
-var vieP2 = 100;
-var attaqueP2 = 5;
+var vieP2 = 1000;
+var attaqueP2Sabre = 5;
 
 var bouttonHelp
 var style = { font: "32px Arial", fill: "#01DF01", wordWrap: true, wordWrapWidth: game.width, align: "center" };
@@ -33,6 +34,7 @@ function preload() {
     game.load.image("personnage1V", "/img/Stick1A2.PNG");
     game.load.image("personnage2", "/img/Stick2A1.PNG");
     game.load.image("personnage2V", "/img/Stick2A2.PNG");
+    game.load.image("personnage1Force", "/img/Stick1A3F1.PNG");
 
 
 }
@@ -82,11 +84,14 @@ function openWindow(){
 }
 
 
-function attaquerP2(){
-    vieP1 = vieP1 - attaqueP2;
+function attaquerP2Sabre(){
+    vieP1 = vieP1 - attaqueP2Sabre;
 }
-function attaquerP1(){
-    vieP2 = vieP2 - attaqueP1;
+function attaquerP1Sabre(){
+    vieP2 = vieP2 - attaqueP1Sabre;
+}
+function attaquerP1Force(){
+    vieP2 = vieP2 - attaqueP1Force;
 }
 function cleanAll(){
     game.world.remove(vieText1);
@@ -101,19 +106,24 @@ function closeGame(){
 }
 
 document.addEventListener('keydown', function (e){
-            var cpt = 0;
-
     if(e.keyCode == 'A'.charCodeAt(0) ) {
         e.preventDefault();
-        attaquerP2();
+        attaquerP2Sabre();
         personnage1.x=350;
         personnage1.y=200;
         personnage1.loadTexture('personnage1V');
 
     }  
+    if(e.keyCode == 'Z'.charCodeAt(0) ) {
+        e.preventDefault();
+        attaquerP1Force();
+        personnage1.loadTexture('personnage1Force');
+        personnage2.y=50;
+
+    }  
     if(e.keyCode == 'P'.charCodeAt(0) ) {
         e.preventDefault();
-        attaquerP1();
+        attaquerP1Sabre();
         personnage2.x=50;
         personnage2.y=200;
         personnage2.loadTexture('personnage2V');
@@ -127,6 +137,12 @@ document.addEventListener('keyup', function (e){
         personnage1.x=0;
         personnage1.y=200;
         personnage1.loadTexture('personnage1');
+    }  
+        if(e.keyCode == 'Z'.charCodeAt(0) ) {
+        e.preventDefault();
+        attaquerP1Force();
+        personnage1.loadTexture('personnage1');
+
     }  
     if(e.keyCode == 'P'.charCodeAt(0) ) {
         e.preventDefault();
