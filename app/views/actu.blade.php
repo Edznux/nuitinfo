@@ -33,7 +33,6 @@ fjs.parentNode.insertBefore(js,fjs);
 	<div id="map" class="map-actu"></div>
 </div>
 <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
-<div id="gameId"> </div>
 
 
 
