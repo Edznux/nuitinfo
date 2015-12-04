@@ -2,6 +2,7 @@
 
 
 @section('content')
+<h1>Localisation</h1></div>
 	<script>
 	var position = {{ $position }}
 	</script>
