@@ -11,7 +11,7 @@
 <div class="page-header">
 	<h1>Login into your account</h1>
 </div>
-<form method="post" action="" class="form-horizontal">
+<form method="post" action="/login" class="form-horizontal">
 	<!-- CSRF Token -->
 	<input type="hidden" name="_token" id="csrf_token" value="{{{ Session::getToken() }}}" />
 

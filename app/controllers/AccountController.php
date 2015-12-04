@@ -47,6 +47,9 @@ class AccountController extends AuthorizedController
 		//
 		$inputs = Input::all();
 
+		dd($inputs);
+		die();
+
 		// Validate the inputs.
 		//
 		$validator = Validator::make($inputs, $rules);
