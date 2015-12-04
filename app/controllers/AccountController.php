@@ -142,27 +142,15 @@ class AccountController extends AuthorizedController
 	 * @return   Redirect
 	 */
 
-	public function postModerer()
+	public function postModerer($id)
 	{
-		$rules = array(
-        	'ville' => 'required',
-        	'lat' => 'required|numeric',
-        	'long' => 'required|numeric'
-    	);
-
-		$validator = Validator::make(Input::all(), $rules);
-
-		if ($validator->fails()) {
-			return Redirect::to('moderer')
-            ->withErrors($validator);
+		if(Input::get('modifier') !== null){
+			$modif = Message::where('id','=',$id)->update(array('active' => 1));
 		}
-		else{
-			DB::table('')->insert(
-   				array('label' => Input::get('ville'), 'lng' => Input::get('long'), 'lat' => Input::get('lat'))
-			);
-			return Redirect::to('moderer')
-			->with('success',"Position ajoutée");
-		}	
+		else
+		{
+			$suppr = Message::where('id','=',$id)->delete();
+		}
 	}
 
 	/**

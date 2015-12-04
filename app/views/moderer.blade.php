@@ -6,15 +6,19 @@
 	@endif
 	<h3>Modérer des messages</h3>
 
-	<form action="" method="post">
+	@foreach($messages as $message)
 		<table>
-			@foreach($messages as $message)
-				<tr> 
-						<td>{{{$message->message}}} </td>
-						<td><input type="submit" name="m{{{$message->id}}}" value="Modifier"></td>
-						<td><input type="submit" name="s{{{$message->id}}}" value="Supprimer"></td>
-				</tr>
-			@endforeach
+			<tr> 
+				<td>{{{$message->message}}} </td>
+				<form action="/moderer/{{{$message->id}}}" method="post">
+			
+							<td><input type="submit" name="modifier" value="Modifier"></td>
+				</form>
+				<form action="/moderer/{{{$message->id}}}" method="post">
+							<td><input type="submit" name="supprimer" value="Supprimer"></td>
+
+				</form>
+			</tr>
 		</table>
-	</form>
+	@endforeach
 @stop
