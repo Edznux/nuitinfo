@@ -39,7 +39,7 @@ class AccountController extends AuthorizedController
 		// Declare the rules for the form validation.
 		//
 		$rules = array(
-			'email'      => 'Required|Email' ,
+			'email'      => 'Required' ,
 			'password' => 'Required'
 		);
 
@@ -58,7 +58,7 @@ class AccountController extends AuthorizedController
 
 			// Redirect to the register page.
 			//
-			return Redirect::to('/position')->with('success', 'Connecté !');
+			return Redirect::to('position')->with('success', 'Connecté !');
 		}
 
 		// Something went wrong.
