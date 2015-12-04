@@ -20,9 +20,10 @@
         <li><a class="menu" href="{{{ URL::to( '/messages') }}}">Messages</a>
        @if(isset($user))
         @if($user->id)
-		      <li><a class="menu" href="{{{ URL::to( '/position') }}}">position</a>
+          <li><a class="menu" href="{{{ URL::to( '/position') }}}">position</a>
         @endif
       @endif
+		      <li><a class="menu" href="{{{ URL::to( '/login') }}}">login</a>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

@@ -11,35 +11,17 @@
 
 	<section id="main" class="main-section cleanbg">
 			<div class="container">
-				<h1>Appeler la police</h1>
-
-				<p>ku</p>
-
-				<p>Su</p>
-
-				<h2>gu</h2>
-
-				<p>puio</p>
-
-				<p>fi</p>
-
-				<h2>yu</h2>
-
-				<p>a</p>
-
-				<p>b</p>
+				<h1>En cas d'urgence :</h1>
+				<img src="./../../public/image/guideSurvie.jpg"/>
+				<img src="/image/tsunami.jpg"/>
+				<img src="/image/gestesSurvie.jpg"/>
+				<img src="/image/defibri.jpg"/>
+				
 
 			</div>
 		</section>
 
 <h1></h1>
-	<figure>
-		<a href="chemin vers la page enfant"><img src="chemin de l'icone enfant" alt="icone pour enfants"/>
-	</figure>
-
-	<figure>
-		<a href="chemin vers la page adulte"><img src="chemin de l'icone adulte" alt="icone de secours"/>
-	</figure>
 	</div>
 	
 	@stop
