@@ -144,7 +144,7 @@ class AccountController extends AuthorizedController
 
 	public function postModerer($id)
 	{
-		if(isset(Input::get('modifier'))){
+		if(isset(Input::get('modifier')){
 			$modif = Message::where('id','=',$id)->update(array('active' => 1));
 		}
 		else
