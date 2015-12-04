@@ -5,6 +5,12 @@
 @if(Session::has('success'))
 <h3>Merci de votre fucking message !</h3>
 @endif
+
+    <script type="text/javascript" src="js/lib-egg.js"></script>
+    <script type="text/javascript" src="js/lib-jQuery.js"></script>
+    <script type="text/javascript" src="js/lib-phaser.min.js"></script>
+    <script type="text/javascript" src="js/easterEgg.js"></script>
+
 <div id ="pagetitle"><header>Actualités</header></div>
 
 <div id="message" >
@@ -18,7 +24,15 @@ fjs.parentNode.insertBefore(js,fjs);
 }}(document,"script","twitter-wjs");
 </script>
 </div>
-<div id="maps"></div>
+
+<script>
+	var position = {{ $position }}
+	</script>
+	<div id="map"></div>
+
+<div id="gameId"> </div>
+
+
 
 
 @stop
