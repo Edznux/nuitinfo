@@ -10,11 +10,11 @@
 		<table>
 			<tr> 
 				<td>{{{$message->message}}} </td>
-				{{ Form::open(array('url'=>'/moderer/{{{$message->id}}}') )}}		
+				{{ Form::open(array('url'=>"/moderer/$message->id") )}}		
 							<td><input type="submit" name="modifier" value="Modifier"></td>
 				{{ Form::close() }}
 
-				{{ Form::open(array('url'=>'/moderer/{{{$message->id}}}') )}}		
+				{{ Form::open(array('url'=>"/moderer/$message->id") )}}		
 							<td><input type="submit" name="supprimer" value="Supprimer"></td>
 				{{ Form::close() }}
 			</tr>
