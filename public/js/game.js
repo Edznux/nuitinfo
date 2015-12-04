@@ -139,6 +139,7 @@ document.addEventListener('keyup', function (e){
     }  
         if(e.keyCode == 'Z'.charCodeAt(0) ) {
         e.preventDefault();
+        personnage2.y=200;
         personnage1.loadTexture('personnage1');
 
     }  
