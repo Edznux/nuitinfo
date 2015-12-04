@@ -23,7 +23,7 @@
 	{{-- On inclus le menu dans le layout de base --}}
 	@include('partials.menu')
 
-	<h1>Projet nuit info blabal</h1>
+	<h1>Projet nuit info 2015</h1>
 	@yield('content')
 
 	<!--{{}}-->
