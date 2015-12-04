@@ -5,7 +5,8 @@
 		<h3>Modification éffectuée</h3>
 	@endif
 	<h3>Modérer des messages</h3>
-
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+<div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
 	@foreach($messages as $message)
 		{{ Form::open(array('url'=>"/moderer/$message->id") )}}
 			<table width="50%" border=1>
@@ -18,5 +19,7 @@
 				</tr>
 			</table>	
 		{{ Form::close() }}
+		</div>
+		<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 	@endforeach
 @stop
