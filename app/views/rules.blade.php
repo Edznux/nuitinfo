@@ -14,7 +14,11 @@
 		manière synthétique les consignes de sécurité que vous devrez appliquer en cas de 
 		catastrophe naturelle.
 	</p>
-	<div id="Inondation"><h1>En cas d’inondation</h1></div>
+	<div id="Inondation" style="border:solid 1px #c3c3c3;	border-radius:5px;color: #444444;background-color:#DDDDDD;"><h1>En cas d’inondation</h1></div>
+	
+
+
+
 		<div id="Cadre_Inondation" style="display:none;">
 			
 			<h3>Avant la crue :</h3>
