@@ -42,6 +42,12 @@ top  :10%;
 	width:80%;
 }
 
+.map-actu
+{
+height:15% !important;
+	width:15% !important;	
+}
+
 /* micro reset */
 * {
 	box-sizing: border-box;
