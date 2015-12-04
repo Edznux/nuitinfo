@@ -123,6 +123,48 @@ class AccountController extends AuthorizedController
 		}	
 	}
 
+	public function getModerer()
+	{
+		// Are we logged in?
+		//
+		if (Auth::check())
+		{
+			return View::make('/moderer')->with('messages', Message::all());
+		}
+
+		return View::make('/');
+	}
+
+	/**
+	 * Login form processing.
+	 *
+	 * @access   public
+	 * @return   Redirect
+	 */
+
+	public function postModerer()
+	{
+		$rules = array(
+        	'ville' => 'required',
+        	'lat' => 'required|numeric',
+        	'long' => 'required|numeric'
+    	);
+
+		$validator = Validator::make(Input::all(), $rules);
+
+		if ($validator->fails()) {
+			return Redirect::to('moderer')
+            ->withErrors($validator);
+		}
+		else{
+			DB::table('')->insert(
+   				array('label' => Input::get('ville'), 'lng' => Input::get('long'), 'lat' => Input::get('lat'))
+			);
+			return Redirect::to('moderer')
+			->with('success',"Position ajoutée");
+		}	
+	}
+
 	/**
 	 * Logout page.
 	 *
