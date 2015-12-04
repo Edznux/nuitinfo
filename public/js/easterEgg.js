@@ -14,22 +14,22 @@ egg.addHook(function(){
 document.addEventListener('keydown', function (e){
     if(e.ctrlKey && e.keyCode == 'A'.charCodeAt(0) ) {
         e.preventDefault();
-        window.navigate('http://ni.edznux.fr/');
+        window.location = 'http://ni.edznux.fr/';
     }  
         if(e.ctrlKey && e.keyCode == 'M'.charCodeAt(0) ) {
             e.preventDefault();
-              window.navigate('http://ni.edznux.fr/map');
+              window.location='http://ni.edznux.fr/map';
         }
         if(e.ctrlKey && e.keyCode == 'R'.charCodeAt(0) ) {
             e.preventDefault();
-              window.navigate('http://ni.edznux.fr/rules');
+              window.location='http://ni.edznux.fr/rules';
         } 
         if(e.ctrlKey && e.keyCode == 'P'.charCodeAt(0) ) {
             e.preventDefault();
-              window.navigate('http://ni.edznux.fr/messages');
+              window.location= 'http://ni.edznux.fr/messages';
         }
     if(e.ctrlKey && e.keyCode == 'P'.charCodeAt(0) ) {
             e.preventDefault();
-              window.navigate('http://ni.edznux.fr/login');
+              window.location= 'http://ni.edznux.fr/login';
         }
     });
