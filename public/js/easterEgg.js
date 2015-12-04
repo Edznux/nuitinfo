@@ -9,6 +9,7 @@ var egg1 = new Egg();
 egg1.addCode("down,down,down,down", function() {
 var audio = new Audio('Chewbacca.mp3');
 audio.play();
+});
 egg1.addHook(function(){
 }).listen();
 
@@ -43,4 +44,4 @@ document.addEventListener('keydown', function (e){
             e.preventDefault();
               window.location.href= 'http://ni.edznux.fr/enfants';
         }
-    })
+    });
